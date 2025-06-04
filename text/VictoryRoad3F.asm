@@ -1,63 +1,67 @@
 _VictoryRoad3FCooltrainerM1BattleText::
-	text "I heard rumors of"
-	line "a child prodigy!"
-	done
+text "J'ai entendu"
+line "parler d'un jeune"
+cont "prodige!"
+done
 
 _VictoryRoad3FCooltrainerM1EndBattleText::
-	text "The"
-	line "rumors were true!"
-	prompt
+text "..."
+line "C'était vrai!"
+prompt
 
 _VictoryRoad3FCooltrainerM1AfterBattleText::
-	text "You beat GIOVANNI"
-	line "of <TEAM><ROCKET>?"
-	done
+text "Tu as battu"
+line "GIOVANNI de la"
+cont "TEAM ROCKET?"
+done
 
 _VictoryRoad3FCooltrainerF1BattleText::
-	text "I'll show you just"
-	line "how good you are!"
-	done
+text "Je vais te"
+line "montrer ma"
+cont "puissance!"
+done
 
 _VictoryRoad3FCooltrainerF1EndBattleText::
-	text "I'm"
-	line "furious!"
-	prompt
+text "Non!"
+line "Je suis furieuse!"
+prompt
 
 _VictoryRoad3FCooltrainerF1AfterBattleText::
-	text "You showed me just"
-	line "how good I was!"
-	done
+text "Ben, j'suis pas"
+line "si forte que ça!"
+done
 
 _VictoryRoad3FCooltrainerM2BattleText::
-	text "Only the chosen"
-	line "can pass here!"
-	done
+text "Seuls les élus"
+line "peuvent passer!"
+done
 
 _VictoryRoad3FCooltrainerM2EndBattleText::
-	text "I"
-	line "don't believe it!"
-	prompt
+text "Oh!"
+line "J'y crois pas!"
+prompt
 
 _VictoryRoad3FCooltrainerM2AfterBattleText::
-	text "All trainers here"
-	line "are headed to the"
-	cont "#MON LEAGUE!"
-	cont "Be careful!"
-	done
+text "Ces dresseurs"
+line "sont de la"
+cont "LIGUE #MON!"
+cont "Fais attention!"
+done
 
 _VictoryRoad3FCooltrainerF2BattleText::
-	text "Trainers live to"
-	line "seek stronger"
-	cont "<opponent>s!"
-	done
+text "Un dresseur est"
+line "toujours en quête"
+cont "d'adversaires plus"
+cont "puissants!"
+done
 
 _VictoryRoad3FCooltrainerF2EndBattleText::
-	text "Oh!"
-	line "So strong!"
-	prompt
+text "Oh!"
+line "T'es un dur toi!"
+prompt
 
 _VictoryRoad3FCooltrainerF2AfterBattleText::
-	text "By fighting tough"
-	line "battles, you get"
-	cont "stronger!"
-	done
+text "Bats-toi bien,"
+line "et tu seras"
+cont "un bon dresseur!"
+done

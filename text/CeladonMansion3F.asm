@@ -1,67 +1,62 @@
 _CeladonMansion3FProgrammerText::
-	text "Me? I'm the"
-	line "programmer!"
-	done
+text "Moi? Chuis un"
+line "programmeur!"
+done
 
 _CeladonMansion3FGraphicArtistText::
-	text "I'm the graphic"
-	line "artist!"
-	cont "I drew you!"
-	done
+text "Je fais tous les"
+line "graphismes!"
+cont "Je t'ai dessiné!"
+done
 
 _CeladonMansion3FWriterText::
-	text "I wrote the story!"
-	line "Isn't ERIKA cute?"
-
-	para "I like MISTY a"
-	line "lot too!"
-
-	para "Oh, and SABRINA,"
-	line "I like her!"
-	done
+text "J'ai écrit"
+line "l'histoire!"
+cont "ERIKA est belle!"
+para "ONDINE aussi,"
+line "non?"
+para "Et puis MORGANE!"
+line "Elle est mimi!"
+done
 
 _CeladonMansion3FGameDesignerText::
-	text "Is that right?"
-
-	para "I'm the game"
-	line "designer!"
-
-	para "Filling up your"
-	line "#DEX is tough,"
-	cont "but don't quit!"
-
-	para "When you finish,"
-	line "come tell me!"
-	done
+text "Yagwahabwa!"
+para "Je suis le"
+line "designer!"
+para "Remplir ton"
+line "#DEX est"
+cont "difficile, hein?"
+para "Complète-le et"
+line "reviens me voir!"
+done
 
 _CeladonMansion3FGameDesignerCompletedDexText::
-	text "Wow! Excellent!"
-	line "You completed"
-	cont "your #DEX!"
-	cont "Congratulations!"
-	cont "<...>@"
-	text_end
+text "Woah! Génial!"
+line "Tu as complété"
+cont "ton #DEX!"
+cont "Félicitations!"
+cont "...@"
+text_end
 
 _CeladonMansion3FGameProgramPCText::
-	text "It's the game"
-	line "program! Messing"
-	cont "with it could bug"
-	cont "out the game!"
-	done
+text "Le programme"
+line "du jeu! Si tu y"
+cont "touches, tout va"
+cont "planter!"
+done
 
 _CeladonMansion3FPlayingGamePCText::
-	text "Someone's playing"
-	line "a game instead of"
-	cont "working!"
-	done
+text "Quelqu'un joue au"
+line "lieu de bosser!"
+done
 
 _CeladonMansion3FGameScriptPCText::
-	text "It's the script!"
-	line "Better not look"
-	cont "at the ending!"
-	done
+text "Le script du jeu!"
+line "Surtout ne pas"
+cont "lire la fin!"
+done
 
 _CeladonMansion3FDevRoomSignText::
-	text "GAME FREAK"
-	line "Development Room"
-	done
+text "GAME FREAK"
+line "Développement"
+done

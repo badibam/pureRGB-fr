@@ -1,12 +1,12 @@
 _Route2SignText::
-	text "ROUTE 2"
-	line "VIRIDIAN CITY -"
-	cont "PEWTER CITY"
-	done
+text "ROUTE 2"
+line "JADIELLE -"
+cont "ARGENTA"
+done
 
 _Route2DiglettsCaveSignText::
-	text "DIGLETT's CAVE"
-	done
+text "CAVE TAUPIQUEUR"
+done
 
 _Route2BattleText1::
 	text "This field is a"
@@ -66,4 +66,3 @@ _Route2AfterBattleText3::
 	para "It's a beautiful"
 	line "quiet spot to"
 	cont "relax."
-	done

@@ -104,4 +104,3 @@ _ProspectorsHouseBookcase3Text2::
 	cont "near where male"
 	cont "MAGMAR fought for"
 	cont "dominance."
-	done

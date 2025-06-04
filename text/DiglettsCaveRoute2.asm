@@ -1,9 +1,7 @@
 _DiglettsCaveRoute2FishingGuruText::
-	text "I went to ROCK"
-	line "TUNNEL, but it's"
-	cont "dark and scary."
-
-	para "If a #MON's"
-	line "FLASH could light"
-	cont "it up<...>"
-	done
+text "J'y vois rien"
+line "dans la GROTTE."
+para "Si le FLASH d'un"
+line "#MON pouvait"
+cont "l'éclairer..."
+done

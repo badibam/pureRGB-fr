@@ -14,44 +14,44 @@ SilphCo9FNurseThankYouText::
 	done
 
 _SilphCo9FRocket1BattleText::
-	text "Your #MON seem"
-	line "to adore you, kid!"
-	done
+text "Tes #MON ont"
+line "l'air de t'aimer!"
+done
 
 _SilphCo9FRocket1EndBattleText::
-	text "Ghaaah!"
-	prompt
+text "Ghaaah!"
+prompt
 
 _SilphCo9FRocket1AfterBattleText::
-	text "If I had started"
-	line "as a trainer at"
-	cont "your age<...>"
-	done
+text "Si j'avais"
+line "commencé à ton"
+cont "âge..."
+done
 
 _SilphCo9FScientistBattleText::
-	text "Your #MON have"
-	line "weak points! I"
-	cont "can nail them!"
-	done
+text "Tes #MON ont"
+line "des points"
+cont "faibles! Ah-ah!"
+done
 
 _SilphCo9FScientistEndBattleText::
-	text "You"
-	line "hammered me!"
-	prompt
+text "Non!"
+line "J'ai perdu!"
+prompt
 
 _SilphCo9FScientistAfterBattleText::
-	text "Exploiting weak"
-	line "spots does work!"
-	cont "Think about"
-	cont "element types!"
-	done
+text "Jouer sur les"
+line "points faibles"
+cont "est la clé! Pense"
+cont "aux éléments!"
+done
 
 _SilphCo9FRocket2EndBattleText::
-	text "Warg!"
-	line "Brothers, I lost!"
-	prompt
+text "Frères!"
+line "J'suis nul!"
+prompt
 
 _SilphCo9FRocket2AfterBattleText::
-	text "My brothers will"
-	line "avenge me!"
-	done
+text "Mes frères me"
+line "vengeront!"
+done

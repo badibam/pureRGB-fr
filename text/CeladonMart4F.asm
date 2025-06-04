@@ -1,26 +1,25 @@
 _CeladonMart4FSuperNerdText::
-	text "I'm getting a"
-	line "# DOLL for my"
-	cont "girl friend!"
-	done
+text "J'offre une belle"
+line "#poupée à ma"
+cont "copine!"
+done
 
 _CeladonMart4FYoungsterText::
-	text "I heard something"
-	line "useful."
-
-	para "You can run from"
-	line "wild #MON by"
-	cont "distracting them"
-	cont "with a # DOLL!"
-	done
+text "Ecoute donc..."
+para "Tu peux fuir face"
+line "aux #MON"
+cont "sauvages en les"
+cont "occupant avec une"
+cont "#POUPEE!"
+done
 
 _CeladonMart4FCurrentFloorSignText::
-	text "Express yourself"
-	line "with gifts!"
-
-	para "4F: WISEMAN GIFTS"
-
-	para "Evolution Special!"
-	line "Element STONEs on"
-	cont "sale now!"
-	done
+text "Un cadeau..."
+line "L'amour..."
+cont "La vie!"
+para "3ème: CADEAUX"
+para "Vive les"
+line "évolutions!"
+cont "Les PIERRES sont"
+cont "en vente!"
+done

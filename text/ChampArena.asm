@@ -358,11 +358,6 @@ _BrockIntroText2::
 	line "<PLAYER>!"
 	prompt
 
-
-	;para "The harder they"
-	;line "are, the harder"
-	;cont "they fall!"
-
 _BrockLostText::
 	text "I got"
 	line "rocked!"
@@ -698,4 +693,3 @@ _IndigoPlateauArenaAssistantChampAttained::
 	line "for you!"
 	para "Follow me into"
 	line "the CHAMP arena!"
-	done

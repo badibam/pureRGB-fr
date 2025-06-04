@@ -1,66 +1,68 @@
 _ViridianForestYoungster1Text::
-	text "I came here with"
-	line "some friends!"
-
-	para "They're out for"
-	line "#MON fights!"
-	done
+text "Je suis ici"
+line "avec des amis!"
+para "Ils sont ici"
+line "pour se battre!"
+done
 
 _ViridianForestYoungster2BattleText::
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle'em!"
-	done
+_ViridianForestBattleText1::
+text "Hé! Mais tu as"
+line "des #MON!"
+cont "Yah! A l'attaque!"
+done
 
 _ViridianForestYoungster2EndBattleText::
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
-	prompt
+text "NON!"
+line "CHENIPAN n'y"
+cont "arrivera pas!"
+prompt
 
 _ViridianForestYoungster2AfterBattleText::
-	text "Ssh! You'll scare"
-	line "the bugs away!"
-	done
+text "Chut! Tu fais"
+line "peur aux"
+cont "insectes..."
+done
 
 _ViridianForestYoungster3BattleText::
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
-	done
+text "Haha! Un dresseur"
+line "de #MON, un"
+cont "vrai, ne se"
+cont "débine jamais!!!"
+done
 
 _ViridianForestYoungster3EndBattleText::
-	text "Huh?"
-	line "I ran out of"
-	cont "#MON!"
-	prompt
+text "Oups!"
+line "N'en n'a plus des"
+cont "#MON, moi!"
+prompt
 
 _ViridianForestYoungster3AfterBattleText::
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
-	done
+text "Fichtre! J'vais"
+line "en choper des"
+cont "plus balèzes!"
+done
 
 _ViridianForestYoungster4BattleText::
-	text "Hey, wait up!"
-	line "What's the hurry?"
-	done
+text "Hop, hop! Minute!"
+line "On n'est pas"
+cont "pressé!"
+done
 
 _ViridianForestYoungster4EndBattleText::
-	text "I"
-	line "give! You're good"
-	cont "at this!"
-	prompt
+text "Houlà!"
+line "J'abandonne!"
+cont "T'es trop fort!"
+prompt
 
 _ViridianForestYoungster4AfterBattleText::
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
-
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
-	done
+text "Tu trouveras"
+line "peut-être des"
+cont "objets par terre!"
+para "Je cherche les"
+line "objets que j'ai"
+cont "laissé tomber..."
+done
 
 _ViridianForestBattleTextPikaGirl::
 	text "Hi, do you have a"
@@ -99,61 +101,61 @@ _ViridianForestAfterBattleTextSamurai::
 	done
 
 _ViridianForestYoungster5Text::
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
-
-	para "You should carry"
-	line "extras!"
-	done
+text "J'suis à court de"
+line "# BALL!"
+cont "Je ne peux plus"
+cont "attraper de"
+cont "#MON!"
+para "Il t'en faut"
+line "toujours un max!"
+done
 
 _ViridianForestTrainerTips1Text::
-	text "<TIPS>"
-
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
-	done
+text "ASTUCE"
+para "Pour éviter les"
+line "combats, ne "
+cont "marchez pas dans"
+cont "les hautes herbes!"
+done
 
 _ViridianForestUseAntidoteSignText::
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
-	done
+text "L'ANTIDOTE vendu"
+line "dans les"
+cont "BOUTIQUES PKMN"
+cont "guérit du poison."
+done
 
 _ViridianForestTrainerTips2Text::
-	text "<TIPS>"
-
-	para "Contact PROF.OAK"
-	line "via <PC> to get"
-	cont "your #DEX"
-	cont "evaluated!"
-	done
+text "ASTUCE"
+para "Pour évaluer"
+line "votre #DEX,"
+cont "appelez le Prof."
+cont "Chen via un PC!"
+done
 
 _ViridianForestTrainerTips3Text::
-	text "<TIPS>"
-
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
-	done
+text "ASTUCE"
+para "Interdiction de"
+line "capturer les"
+cont "#MON d'un"
+cont "autre dresseur!"
+cont "La capture se"
+cont "fait à l'état"
+cont "sauvage!"
+done
 
 _ViridianForestTrainerTips4Text::
-	text "<TIPS>"
-
-	para "Weaken #MON"
-	line "before attempting"
-	cont "capture!"
-
-	para "When healthy,"
-	line "they may escape!"
-	done
+text "ASTUCE"
+para "Un #MON"
+line "blessé se capture"
+cont "plus facilement!"
+para "En pleine forme,"
+line "il peut s'enfuir!"
+done
 
 _ViridianForestLeavingSignText::
-	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
-	done
+text "VOUS QUITTEZ LA"
+line "FORET DE JADE."
+cont "VOUS ALLEZ VERS"
+cont "ARGENTA."
+done

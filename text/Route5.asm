@@ -1,8 +1,8 @@
 _Route5UndergroundPathSignText::
-	text "UNDERGROUND PATH"
-	line "CERULEAN CITY -"
-	cont "VERMILION CITY"
-	done
+text "SOUTERRAIN"
+line "AZURIA -"
+cont "CARMIN SUR MER"
+done
 
 _Route5BattleText1::
 	text "I'm practicing"
@@ -94,4 +94,3 @@ _Route5AfterBattleText4::
 	cont "#MON to tame!"
 	para "This is my own"
 	line "quest!"
-	done

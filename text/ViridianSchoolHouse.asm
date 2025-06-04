@@ -1,16 +1,15 @@
 _ViridianSchoolHouseBrunetteGirlText::
-	text "Whew! I'm trying"
-	line "to memorize all"
-	cont "my notes."
-	done
+text "Pfouh! J'essaie"
+line "d'apprendre mes"
+cont "leçons."
+done
 
 _ViridianSchoolHouseCooltrainerFText::
-	text "Okay!"
-
-	para "Be sure to read"
-	line "the blackboard"
-	cont "carefully!"
-	done
+text "OK!"
+para "Lis attentivement"
+line "le tableau avant"
+cont "de partir!"
+done
 
 _SchoolText3::
 	text "Whew! Detention"
@@ -21,8 +20,6 @@ _SchoolText3::
 _SchoolText4::
 	text "DETENTION ROOM"
 	done
-
-; basement
 
 _SchoolB1FGuyNearStairs::
 	text "Why do we have"
@@ -426,4 +423,3 @@ _SchoolB1FLeftBlackboard::
 	cont "one-a nice shower"
 	cont "waters my flowers!"
 	done
-

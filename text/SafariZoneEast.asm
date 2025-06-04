@@ -1,19 +1,18 @@
 _SafariZoneEastRestHouseSignText::
-	text "REST HOUSE"
-	done
+text "ABRI"
+done
 
 _SafariZoneEastTrainerTipsText::
-	text "<TIPS>"
-
-	para "The remaining time"
-	line "declines only"
-	cont "while you walk!"
-	done
+text "ASTUCE"
+para "Le temps s'écoule"
+line "en fonction des"
+cont "pas!"
+done
 
 _SafariZoneEastSignText::
-	text "AREA 1"
-	line "WEST: CENTER AREA"
-	done
+text "PARC CENTRAL"
+line "NORD: PARC 2"
+done
 
 _SafariZoneEastRangerText::
 	text "Oh my goodness!"
@@ -166,4 +165,3 @@ _SafariZoneEastEngineerAfterBattleText::
 	para "I'm going to make"
 	line "this REST HOUSE"
 	cont "my work of art!"
-	done

@@ -1,43 +1,44 @@
 _CinnabarIslandDoorIsLockedText::
-	text "The door is"
-	line "locked<...>"
-	done
+text "La porte est"
+line "fermée..."
+done
 
 _CinnabarIslandGirlText::
-	text "CINNABAR GYM's"
-	line "BLAINE is an odd"
-	cont "man who has lived"
-	cont "here for decades."
-	done
+text "AUGUSTE,"
+line "de l'ARENE de"
+cont "CRAMOIS'ILE, vit"
+cont "ici depuis des"
+cont "lustres. Il est"
+cont "aussi très"
+cont "étrange..."
+done
 
 _CinnabarIslandGamblerText::
-	text "Scientists conduct"
-	line "experiments in"
-	cont "the burned out"
-	cont "building."
-	done
+text "Des scientifiques"
+line "font de drôles"
+cont "d'expériences"
+cont "dans l'coin."
+done
 
 _CinnabarIslandSignText::
-	text "CINNABAR ISLAND"
-	para "The Fiery Town of"
-	line "Burning Desire"
-	done
+text "CRAMOIS'ILE"
+line "Vive comme les"
+cont "flammes"
+done
 
 _CinnabarIslandPokemonLabSignText::
-	text "#MON LAB"
-	done
+text "LABO #MON"
+done
 
 _CinnabarIslandGymSignText::
-	text "CINNABAR ISLAND"
-	line "#MON GYM"
-	cont "LEADER: BLAINE"
-
-	para "The Hot-Headed"
-	line "Quiz Master!"
-	done
+text "CRAMOIS'ILE"
+line "ARENE #MON"
+cont "CHAMPION: AUGUSTE"
+para "Le cerveau!"
+line "Chaud! Chaud!"
+done
 
 _UnlockedCinnabarGymDoorText::
 	text "<PLAYER> unlocked"
 	line "the door with the"
 	cont "SECRET KEY!"
-	done	

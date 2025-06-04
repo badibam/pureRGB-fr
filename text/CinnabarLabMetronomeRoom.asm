@@ -1,65 +1,54 @@
 _CinnabarLabMetronomeRoomScientist1Text::
-	text "Tch-tch-tch!"
-	line "I made a cool <TM>!"
-
-	para "It can cause all"
-	line "kinds of fun!"
-	prompt
+text "Tiens tiens!"
+line "Je viens de créer"
+cont "une CT sympa!"
+para "Elle provoque des"
+line "trucs étranges!"
+prompt
 
 _CinnabarLabMetronomeRoomScientist1TM35ExplanationText::
-	text "Tch-tch-tch!"
-	line "That's the sound"
-	cont "a KINGLER makes!"
-
-	para "CRABHAMMER is"
-	line "its signature"
-	cont "move!"
-
-	para "I love that move"
-	line "so much, I made a"
-	cont "<TM> to teach it to"
-	cont "other #MON!"
-
-	para "When in doubt:"
-	para "Drop a HAMMER on"
-	line "'em!"
-	done
+text "Tik-Tak-Tik-Tak!"
+line "C'est le bruit du"
+cont "METRONOME!"
+para "Cette technique"
+line "fait de la purée"
+cont "avec le cerveau"
+cont "d'un #MON et le"
+cont "force à utiliser"
+cont "des techniques"
+cont "inconnues!"
+done
 
 _CinnabarLabMetronomeRoomScientist1TM35NoRoomText::
-	text "Your pack is"
-	line "crammed full!"
-	done
+text "Votre inventaire"
+line "est plein!"
+done
 
 _CinnabarLabMetronomeRoomScientist2Text::
-	text "EEVEE can evolve"
-	line "into 1 of 3 kinds"
-	cont "of #MON."
-	done
+text "EVOLI évolue en"
+line "3 #MON de"
+cont "type différent."
+done
 
 _CinnabarLabMetronomeRoomPCText::
-	text "There's an e-mail"
-	line "message!"
-
-	para "<...>"
-
-	para "The 3 legendary"
-	line "bird #MON are"
-	cont "ARTICUNO, ZAPDOS"
-	cont "and MOLTRES."
-
-	para "Their whereabouts"
-	line "are unknown."
-
-	para "We plan to explore"
-	line "the cavern close"
-	cont "to CERULEAN."
-
-	para "From: #MON"
-	line "RESEARCH <TEAM>"
-
-	para "<...>"
-	done
+text "Il y a un e-mail!"
+para "..."
+para "Les 3 #MON"
+line "légendaires sont:"
+cont "ARTIKODIN,"
+cont "ELECTHOR et"
+cont "SULFURA."
+para "On ne sait rien"
+line "d'eux."
+para "Nous allons"
+line "explorer les"
+cont "grottes près de"
+cont "AZURIA."
+para "De : L'EQUIPE DE"
+line "RECHERCHE #MON"
+para "..."
+done
 
 _CinnabarLabMetronomeRoomAmberPipeText::
-	text "An amber pipe!"
-	done
+text "Un tuyau à ambre!"
+done

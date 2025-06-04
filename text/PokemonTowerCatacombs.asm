@@ -395,4 +395,3 @@ _PokemonTowerCatacombsDoneText::
 _PokemonTowerCatacombsGoBackDown::
 	text "Want to go"
 	line "back downstairs?"
-	done

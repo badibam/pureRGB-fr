@@ -1,8 +1,8 @@
 _Route7UndergroundPathSignText::
-	text "UNDERGROUND PATH"
-	line "CELADON CITY -"
-	cont "LAVENDER TOWN"
-	done
+text "SOUTERRAIN"
+line "CELADOPOLE -"
+cont "LAVANVILLE"
+done
 
 _Route7BattleText1::
 	text "I'm the oldest"
@@ -44,4 +44,3 @@ _Route7AfterBattleText2::
 	cont "gambling!"
 	para "I lost more money"
 	line "than anyone else!"
-	done	

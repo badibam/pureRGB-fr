@@ -275,4 +275,3 @@ _SecretLabMewtwoTransformCompleteText::
 	text "ARMING PROCESS"
 	line "COMPLETED"
 	para "STANDING BY"
-	done

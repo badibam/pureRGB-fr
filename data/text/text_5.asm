@@ -1,27 +1,31 @@
 _CableClubNPCPleaseComeAgainText::
-	text "Please come again!"
-	done
+text "A bientôt!"
+done
 
 _CableClubNPCMakingPreparationsText::
-	text "We're making"
-	line "preparations."
-	cont "Please wait."
-	done
+text "Nous préparons"
+line "le lien."
+cont "Patience s.v.p.!"
+done
 
 _UsedStrengthText::
-	text_ram wNameBuffer
-	text " used"
-	line "STRENGTH.@"
-	text_end
+text_ram wNameBuffer
+text_start
+line "utilise FORCE.@"
+text_end
 
 _CanMoveBouldersText::
-	text_ram wNameBuffer
-	text " can"
-	line "move boulders."
-	done
+text_ram wNameBuffer
+text_start
+line "peut bouger"
+cont "les rochers."
+prompt
 
 _CurrentTooFastText::
-	text_start
+text "Le courant est"
+line "trop rapide!"
+prompt
+
 _CurrentTooFastTextEntry::
 	db "The current is"
 	line "much too fast!"
@@ -33,14 +37,15 @@ _CurrentTooFastText2::
 	text_jump _CurrentTooFastTextEntry
 
 _CyclingIsFunText::
-	text "Cycling is fun!"
-	line "Forget SURFing!"
-	prompt
+text "Le vélo,"
+line "c'est cool!"
+cont "Oublie le SURF!"
+prompt
 
 _FlashLightsAreaText::
-	text "A blinding FLASH"
-	line "lights the area!"
-	prompt
+text "Un FLASH éclaire"
+line "les environs!"
+prompt
 
 _EscapeText::
 	text "Escape@"
@@ -97,21 +102,23 @@ _PocketAbraNo::
 	prompt
 
 _WarpToLastPokemonCenterText::
-	text "Warp to the last"
-	line "#MON CENTER."
-	prompt
+text "Téléportation au"
+line "dernier CENTRE"
+cont "#MON visité."
+done
 
 _CannotUseTeleportNowText::
-	text_ram wNameBuffer
-	text " can't"
-	line "use TELEPORT now."
-	prompt
+text_ram wNameBuffer
+text " ne"
+line "peut utiliser la"
+cont "TELEPORTATION."
+prompt
 
 _CannotFlyHereText::
-	text_ram wNameBuffer
-	text " can't"
-	line "FLY here."
-	prompt
+text_ram wNameBuffer
+text " ne"
+line "peut VOLER ici."
+prompt
 
 _CannotDigHereText::
 	text_ram wNameBuffer
@@ -132,9 +139,9 @@ _NoWhereToDigDown::
 	prompt
 
 _NotHealthyEnoughText::
-	text "Not healthy"
-	line "enough."
-	prompt
+text "Points de vie"
+line "insuffisants."
+prompt
 
 _AlreadyBrightText::
 	text "It's already"
@@ -142,47 +149,44 @@ _AlreadyBrightText::
 	prompt
 
 _NewBadgeRequiredText::
-	text "No! A new BADGE"
-	line "is required."
-	prompt
+text "Non! Un nouveau"
+line "BADGE est requis."
+prompt
 
 _CannotUseItemsHereText::
-	text "You can't use items"
-	line "here."
-	prompt
+text "Pas d'objets ici!"
+prompt
 
 _CannotGetOffHereText::
-	text "You can't get off"
-	line "here."
-	prompt
+text "Impossible de"
+line "descendre ici!"
+prompt
 
 _GotMonText::
-	text "<PLAYER> got"
-	line "@"
-	text_ram wNameBuffer
-	text "!@"
-	text_end
+text "<PLAYER> obtient:"
+line "@"
+text_ram wNameBuffer
+text "!@"
+text_end
 
 _SentToBoxText::
-	text "There's no more"
-	line "room for #MON!"
-	cont "@"
-	text_ram wBoxMonNicks
-	text " was"
-	cont "sent to #MON"
-	cont "BOX @"
-	text_ram wStringBuffer
-	text " on <PC>!"
-	prompt
+text "Plus de place"
+line "pour un #MON!"
+cont "@"
+text_ram wBoxMonNicks
+text " est"
+cont "transféré à la"
+cont "BOITE @"
+text_ram wStringBuffer
+text " du PC!"
+done
 
 _BoxIsFullText::
-	text "There's no more"
-	line "room for #MON!"
-
-	para "The #MON BOX"
-	line "is full and can't"
-	cont "accept any more!"
-
-	para "Change the BOX at"
-	line "a #MON CENTER!"
-	done
+text "Plus de place"
+line "pour un #MON!"
+para "La BOITE #MON"
+line "est pleine!"
+para "Changez de BOITE"
+line "dans un CENTRE"
+cont "#MON!"
+done

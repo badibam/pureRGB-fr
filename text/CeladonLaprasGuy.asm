@@ -63,4 +63,3 @@ _LaprasGuySilphCoAlreadyText::
 	para "We're in good"
 	line "hands then!"
 	para "Take this!"
-	prompt

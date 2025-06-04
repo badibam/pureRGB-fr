@@ -20,11 +20,6 @@ _SaraErikOutsideText::
 	para "Thanks!"
 	done
 
-_WereMarineBiologists:
-	para "We're marine"
-	line "biologists!"
-	done
-
 _SaraReunitedText::
 	text "SARA: Thanks for"
 	line "finding my"
@@ -118,6 +113,7 @@ _ErikSarasHouseDragonairEmailText::
 _ErikSarasHouseLeftBookText::
 	text "SECRETS OF THE SEA@"
 	text_end
+
 _ErikSarasHouseLeftBookText2::
 	text "<PARA>Coral reefs have"
 	line "incredibly high"
@@ -133,6 +129,7 @@ _ErikSarasHouseLeftBookText2::
 _ErikSarasHouseCenterBookText::
 	text "ABYSSAL SEA LIFE@"
 	text_end
+
 _ErikSarasHouseCenterBookText2::
 	text "<PARA>DEEP SEA VOLCANIC"
 	line "VENTS"
@@ -148,6 +145,7 @@ _ErikSarasHouseCenterBookText2::
 _ErikSarasHouseRightBookText::
 	text "ANCIENT OCEANS@"
 	text_end
+
 _ErikSarasHouseRightBookText2::
 	text "<PARA>Millions of years"
 	line "in the past,"

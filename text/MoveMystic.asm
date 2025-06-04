@@ -99,13 +99,13 @@ _SeakingMoveMysticText::
 	text_start
 	line "fabulous fish."
 	prompt
-	
+
 _KangaskhanMoveMysticText::
 	text_start
 	line "parental"
 	cont "powerhouse."
 	prompt
-	
+
 _LickitungMoveMysticText::
 	text_start
 	line "salivating"
@@ -179,7 +179,6 @@ _MoveMysticJigglyWigglyOnlyLevel20Text::
 	line "above level 20!"
 	done
 
-; TODO: use another smaller buffer
 _GenericMovePowerIncreasesText::
 	text "Its POWER"
 	line "increases to @"

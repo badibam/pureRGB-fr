@@ -45,4 +45,3 @@ _FishingGuideBookText::
 	para "It says FISHING"
 	line "GUIDE in big"
 	cont "letters."
-	done

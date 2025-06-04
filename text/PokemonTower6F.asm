@@ -1,13 +1,17 @@
 _PokemonTower6FGhostWasCubonesMotherText::
-	text "The GHOST was the"
-	line "restless soul of"
-	cont "CUBONE's mother!"
-	done
+text "Le SPECTRE était"
+line "l'esprit damné de"
+cont "la mère de"
+cont "OSSELAIT!"
+done
 
 _PokemonTower6FSoulWasCalmedText::
-	text "The mother's soul"
-	line "was calmed."
-	prompt
+text "L'âme de la mère"
+line "a été apaisée."
+para "Elle est partie"
+line "vers l'autre"
+cont "monde!"
+done
 
 _PokemonTower2Text_toAfterlife::
 	text "It departed to"
@@ -26,49 +30,49 @@ _PokemonTower2Text_Caught::
 	done
 
 _PokemonTower6FChanneler1BattleText::
-	text "Give<...>me<...>"
-	line "blood<...>"
-	done
+text "Ton...Sang..."
+line "Donne..."
+done
 
 _PokemonTower6FChanneler1EndBattleText::
-	text "Groan!"
-	prompt
+text "Grargh!"
+prompt
 
 _PokemonTower6FChanneler1AfterBattleText::
-	text "I feel anemic and"
-	line "weak<...>"
-	done
+text "Je me sens"
+line "faible..."
+done
 
 _PokemonTower6FChanneler2BattleText::
-	text "Urff<...> Kwaah!"
-	done
+text "Urff... Kwaah!"
+done
 
 _PokemonTower6FChanneler2EndBattleText::
-	text "Some-"
-	line "thing fell out!"
-	prompt
+text "Haaa!"
+line "Je me sens mieux!"
+prompt
 
 _PokemonTower6FChanneler2AfterBattleText::
-	text "Hair didn't fall"
-	line "out! It was an"
-	cont "evil spirit!"
-	done
+text "J'étais sous"
+line "l'emprise d'un"
+cont "esprit!"
+done
 
 _PokemonTower6FChanneler3BattleText::
-	text "Ke<...>ke<...>ke<...>"
-	line "ke<...>ke<...>ke!!"
-	done
+text "Ke..ke...ke..."
+line "ke..ke...ke!!"
+done
 
 _PokemonTower6FChanneler3EndBattleText::
-	text "Keee!"
-	prompt
+text "Keee!"
+prompt
 
 _PokemonTower6FChanneler3AfterBattleText::
-	text "What's going on"
-	line "here?"
-	done
+text "Mais qu'est-ce"
+line "qui se passe ici?"
+done
 
 _PokemonTower6FBeGoneText::
-	text "Be gone<...>"
-	line "Intruders<...>"
-	done
+text "Fuis..."
+line "Impudent..."
+done

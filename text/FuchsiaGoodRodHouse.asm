@@ -72,4 +72,3 @@ _FuchsiaGoodRodHouseGarbageText::
 	line "fishing pond!"
 	para "Learn everything"
 	line "step-by-step!"
-	done

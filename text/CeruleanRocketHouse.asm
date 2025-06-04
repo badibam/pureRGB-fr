@@ -32,7 +32,7 @@ _CeruleanRocketHouseB1FBottomDoorSignText::
 	text "THE LAST MACHINE"
 	para "VOIDAL TERMINAL"
 	done
-	
+
 _CeruleanRocketHouseB1FTopDoorSignText::
 	text "EMERGENCY EGRESS"
 	done
@@ -104,7 +104,6 @@ _CeruleanRocketHouseB1FCenterComputerText2::
 	line "PLEASE ALLOW"
 	cont "DISMANTLING!"
 	done
-
 
 _CeruleanRocketHouseB1FRightComputerText::
 	text "OPERATION"
@@ -235,4 +234,3 @@ _CeruleanRocketHouseB1FCodeText::
 	line "·--· -·- -- -·"
 	cont "·--· ·- -·--"
 	cont "-·· ·- -·--"
-	done

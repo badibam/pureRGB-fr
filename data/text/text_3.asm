@@ -1,31 +1,34 @@
 _FileDataDestroyedText::
-	text "The file data is"
-	line "destroyed!"
-	prompt
+text "La sauvegarde est"
+line "détruite!"
+prompt
 
 _WouldYouLikeToSaveText::
-	text "Would you like to"
-	line "SAVE the game?"
-	done
+text "Voulez-vous"
+line "sauvegarder?"
+done
 
 _GameSavedText::
-	text "<PLAYER> saved"
-	line "the game!"
-	done
+text "<PLAYER>"
+line "sauvegarde"
+cont "la partie!"
+done
 
 _OlderFileWillBeErasedText::
-	text "The older file"
-	line "will be erased to"
-	cont "save. Okay?"
-	done
+text "L'ancienne"
+line "sauvegarde sera"
+cont "effacée. OK?"
+done
 
 _WhenYouChangeBoxText::
-	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved."
-
-	para "Is that okay?"
-	done
+text "En activant"
+line "une autre boîte"
+cont "de #MON, les"
+cont "données seront"
+cont "sauvegardées."
+para "Etes-vous"
+line "d'accord?"
+done
 
 _SkippedForever::
 	text "This question"
@@ -33,9 +36,9 @@ _SkippedForever::
 	prompt
 
 _ChooseABoxText::
-	text "Choose a"
-	line "<PKMN> BOX.@"
-	text_end
+text "Choisissez une"
+line "BOITE <PKMN>.@"
+text_end
 
 _ChooseABoxDataWillSaveText::
 	text "Choose a <PKMN> BOX."
@@ -43,95 +46,96 @@ _ChooseABoxDataWillSaveText::
 	text_end
 
 _EvolvedText::
-	text_ram wStringBuffer
-	text " evolved"
-	done
+text_ram wStringBuffer
+text " évolue"
+done
 
 _IntoText::
-	text_start
-	line "into @"
-	text_ram wNameBuffer
-	text "!"
-	done
+text_start
+line "en @"
+text_ram wNameBuffer
+text "!"
+done
 
 _StoppedEvolvingText::
-	text "Huh? @"
-	text_ram wStringBuffer
-	text_start
-	line "stopped evolving!"
-	prompt
+text "Hein? @"
+text_ram wStringBuffer
+text_start
+line "n'évolue plus!"
+prompt
 
 _IsEvolvingText::
-	text "What? @"
-	text_ram wStringBuffer
-	text_start
-	line "is evolving!"
-	done
+text "Hein? @"
+text_ram wStringBuffer
+text_start
+line "évolue!"
+done
 
 _FellAsleepText::
-	text "<TARGET>"
-	line "fell asleep!"
-	prompt
+text "<TARGET>"
+line "s'endort!"
+prompt
 
 _AlreadyAsleepText::
-	text "<TARGET>'s"
-	line "already asleep!"
-	prompt
+text "<TARGET>"
+line "est déjà endormi!"
+prompt
 
 _PoisonedText::
-	text "<TARGET>"
-	line "was poisoned!"
-	prompt
+text "<TARGET>"
+line "est empoisonné!"
+prompt
 
 _BadlyPoisonedText::
-	text "<TARGET>'s"
-	line "badly poisoned!"
-	prompt
+text "<TARGET>"
+line "est gravement"
+cont "empoisonné!"
+prompt
 
 _BurnedText::
-	text "<TARGET>"
-	line "was burned!"
-	prompt
+text "<TARGET>"
+line "brûle!"
+prompt
 
 _FrozenText::
-	text "<TARGET>"
-	line "was frozen solid!"
-	prompt
+text "<TARGET>"
+line "est gelé!"
+prompt
 
 _FireDefrostedText::
-	text "Fire defrosted"
-	line "<TARGET>!"
-	prompt
+text "Le feu dégèle"
+line "<TARGET>!"
+prompt
 
 _MonsStatsRoseText::
-	text "<USER>'s"
-	line "@"
-	text_ram wStringBuffer
-	text "@"
-	text_end
+text "<USER>"
+line "gagne @"
+text_ram wStringBuffer
+text "@"
+text_end
 
 _GreatlyRoseText::
-	text "<SCROLL>greatly@"
-	text_end
+text "<SCROLL>à fond@"
+text_end
 
 _RoseText::
-	text " rose!"
-	prompt
+text "!"
+prompt
 
 _MonsStatsFellText::
-	text "<TARGET>'s"
-	line "@"
-	text_ram wStringBuffer
-	text "@"
-	text_end
+text "<TARGET>"
+line "perd @"
+text_ram wStringBuffer
+text "@"
+text_end
 
 _GreatlyFellText::
-	text "<SCROLL>greatly@"
-	text_end
+text "<SCROLL>à fond@"
+text_end
 
 _FellText::
-	text " fell!"
-	prompt
+text "!"
+prompt
 
 _TeleportedAway::
 	text "<USER>"
@@ -139,132 +143,113 @@ _TeleportedAway::
 	prompt
 
 _RanFromBattleText::
-	text "<USER>"
-	line "ran from battle!"
-	prompt
+text "<USER>"
+line "fuit le combat!"
+prompt
 
 _ChargeMoveEffectText::
-	text "<USER>@"
-	text_end
-
-;_MadeWhirlwindText::
-;	text_start
-;	line "made a whirlwind!"
-;	prompt
-
-;_TookInSunlightText::
-;	text_start
-;	line "took in sunlight!"
-;	prompt
-
-;_LoweredItsHeadText::
-;	text_start
-;	line "lowered its head!"
-;	prompt
-
-;_SkyAttackGlowingText::
-;	text_start
-;	line "is glowing!"
-;	prompt
+text "<USER>@"
+text_end
 
 _FlewUpHighText::
-	text_start
-	line "flew up high!"
-	prompt
+text_start
+line "s'envole!"
+prompt
 
 _DugAHoleText::
-	text_start
-	line "dug a hole!"
-	prompt
+text_start
+line "creuse un trou!"
+prompt
 
 _BecameConfusedText::
-	text "<TARGET>"
-	line "became confused!"
-	prompt
+text "<TARGET>"
+line "devient fou!"
+prompt
 
 _MimicLearnedMoveText::
-	text "<USER>"
-	line "learned"
-	cont "@"
-	text_ram wNameBuffer
-	text "!"
-	prompt
+text "<USER>"
+line "apprend"
+cont "@"
+text_ram wNameBuffer
+text "!"
+prompt
 
 _MoveWasDisabledText::
-	text "<TARGET>'s"
-	line "@"
-	text_ram wNameBuffer
-	text " was"
-	cont "disabled!"
-	prompt
+text_ram wNameBuffer
+text " de"
+line "<TARGET>"
+cont "a disparu!"
+prompt
 
 _NothingHappenedText::
-	text "Nothing happened!"
-	prompt
+text "Rien ne se passe!"
+prompt
 
 _NoEffectText::
-	text "No effect!"
-	prompt
+text "Sans effet!"
+prompt
 
 _ButItFailedText::
-	text "But, it failed!"
-	prompt
+text "Mais échoue!"
+prompt
 
 _DidntAffectText::
-	text "It didn't affect"
-	line "<TARGET>!"
-	prompt
+text "Aucun effet sur"
+line "<TARGET>!"
+prompt
 
 _IsUnaffectedText::
-	text "<TARGET>"
-	line "is unaffected!"
-	prompt
+text "<TARGET>"
+line "ne sent rien!"
+prompt
 
 _ParalyzedMayNotAttackText::
-	text "<TARGET>'s"
-	line "paralyzed! It may"
-	cont "not attack!"
-	prompt
+text "<TARGET>"
+line "est paralysé!"
+cont "Il peut ne pas"
+cont "attaquer!"
+prompt
 
 _SubstituteText::
-	text "It created a"
-	line "SUBSTITUTE!"
-	prompt
+text "Il crée un"
+line "CLONE!"
+prompt
 
 _HasSubstituteText::
-	text "<USER>"
-	line "has a SUBSTITUTE!"
-	prompt
+text "<USER>"
+line "a un CLONE!"
+prompt
 
 _TooWeakSubstituteText::
-	text "Too weak to make"
-	line "a SUBSTITUTE!"
-	prompt
+text "Trop faible pour"
+line "créer un CLONE!"
+prompt
 
 _CoinsScatteredText::
-	text "Coins scattered"
-	line "everywhere!"
-	prompt
+text "Une pluie de"
+line "pognon!"
+prompt
 
 _GettingPumpedText::
-	text "<USER>'s"
-	line "getting pumped!"
-	prompt
+text "<USER>"
+line "accroît sa force!"
+prompt
 
 _WasSeededText::
-	text "<TARGET>"
-	line "was seeded!"
-	prompt
+text "<TARGET>"
+line "est infecté!"
+prompt
 
 _EvadedAttackText::
-	text "<TARGET>"
-	line "evaded attack!"
-	prompt
+text "<TARGET>"
+line "esquive!"
+prompt
 
 _HitWithRecoilText::
-	text "<USER>'s"
-	line "hit with recoil!"
-	prompt
+text "<USER>"
+line "se blesse en"
+cont "frappant!"
+prompt
 
 _ConversionChooseModeText::
 	text "Convert to which"
@@ -272,9 +257,9 @@ _ConversionChooseModeText::
 	prompt
 
 _StatusChangesEliminatedText::
-	text "All STATUS changes"
-	line "are eliminated!"
-	prompt
+text "Tout effet est"
+line "annulé!"
+prompt
 
 _ImmuneToPsychicText::
 	text "<USER> is"
@@ -288,56 +273,58 @@ _StartedSleepingEffect::
 	done
 
 _FellAsleepBecameHealthyText::
-	text "<USER>"
-	line "fell asleep and"
-	cont "became healthy!"
-	done
+text "<USER>"
+line "s'endort et"
+cont "régénère!"
+done
 
 _RegainedHealthText::
-	text "<USER>"
-	line "regained health!"
-	prompt
+text "<USER>"
+line "régénère!"
+prompt
 
 _TransformedText::
-	text "<USER>"
-	line "transformed into"
-	cont "@"
-	text_ram wNameBuffer
-	text "!"
-	prompt
+text "<USER>"
+line "se transforme en"
+cont "@"
+text_ram wNameBuffer
+text "!"
+prompt
 
 _LightScreenProtectedText::
-	text "<USER>'s"
-	line "protected against"
-	cont "special attacks!"
-	prompt
+text "<USER>"
+line "est protégé con-"
+cont "tre les attaques"
+cont "spéciales!"
+prompt
 
 _ReflectGainedArmorText::
-	text "<USER>"
-	line "gained armor!"
-	prompt
+text "<USER>"
+line "augmente sa"
+cont "protection!"
+prompt
 
 _ShroudedInMistText::
-	text "<USER>'s"
-	line "shrouded in mist!"
-	para "<USER>"
-	line "became ethereal!"
-	prompt
+text "<USER>"
+line "s'estompe dans la"
+cont "brume!"
+prompt
 
 _SuckedHealthText::
-	text "Sucked health from"
-	line "<TARGET>!"
-	prompt
+text "La vie de"
+line "<TARGET>"
+cont "est absorbée!"
+prompt
 
 _DreamWasEatenText::
-	text "<TARGET>'s"
-	line "dream was eaten!"
-	prompt
+text "Les rêves de"
+line "<TARGET>"
+cont "sont dévorés!"
+prompt
 
 _ColosseumOpponentText::
-_TradeCenterOpponentText::
-	text "!"
-	done
+text "!"
+done
 
 _GuardedAgainstSuperEffectiveMovesText::
 	text "<USER>"

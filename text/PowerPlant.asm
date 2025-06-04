@@ -1,10 +1,10 @@
 _PowerPlantVoltorbBattleText::
-	text "Bzzzt!"
-	done
+text "Bzzzt!"
+done
 
 _PowerPlantZapdosBattleText::
-	text "Gyaoo!@"
-	text_end
+text "Yahoo!@"
+text_end
 
 _PowerPlantOpenGateText::
 	text "Tripped a breaker!"

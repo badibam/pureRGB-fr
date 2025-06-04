@@ -42,4 +42,3 @@ _FuchsiaMeetingRoomDeskPapers::
 	cont "much less often"
 	cont "on average when"
 	cont "around people."
-	done

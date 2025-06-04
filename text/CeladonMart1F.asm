@@ -1,22 +1,25 @@
 _CeladonMart1FReceptionistText::
-	text "Hello! Welcome to"
-	line "CELADON DEPT."
-	cont "STORE."
-
-	para "The board on the"
-	line "right describes"
-	cont "the store layout."
-	done
+text "Bonjour et bien-"
+line "venue au CENTRE"
+cont "COMMERCIAL de"
+cont "CELADOPOLE."
+para "Le tableau sur la"
+line "droite décrit les"
+cont "différents rayons"
+cont "du magasin."
+done
 
 _CeladonMart1FCurrentFloorSignText::
-	text "1F: SERVICE"
-	line "    COUNTER"
-	done
+text "RDC: "
+line "RENSEIGNEMENTS"
+done
 
 _CeladonMart2FCurrentFloorSignText::
-	text "Top Grade Items"
-	line "for Trainers!"
-	prompt
+text "Les objets de"
+line "premier choix!"
+para "1er: MARCHE DES"
+line "DRESSEURS"
+done
 
 _CeladonMart2FDirectorySignText::
 	text "2F: <TRAINER>'S"
@@ -24,21 +27,21 @@ _CeladonMart2FDirectorySignText::
 	done
 
 _CeladonMart3FCurrentFloorSignText::
-	text "3F: TV GAME SHOP"
-	done
+text "2ème: JEUX VIDEO"
+done
 
 _CeladonMart4FDirectorySignText::
 	text "4F: WISEMAN GIFTS"
 	prompt
 
 _CeladonMart5FCurrentFloorSignText::
-	text "5F: DRUG STORE"
-	done
+text "4ème: MEDICAMENTS"
+done
 
 _CeladonMartRoofCurrentFloorSignText::
-	text "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
-	done
+text "DERNIER ETAGE:"
+line "DISTRIBUTEURS"
+done
 
 _CeladonMartUsePhoneText::
 	text "Use the payphone?"
@@ -220,7 +223,7 @@ _CeladonMartCallMomGoodbyeText::
 	text "Goodbye <PLAYER>!"
 	line "Love you!"
 	prompt
-	
+
 _CeladonMartCallMomGoodbyeSweetSon::
 	text "Oh, my son is so"
 	line "sweet. Bye bye!"
@@ -263,4 +266,3 @@ _CeladonMartCallDadText2::
 	para "I'll be waiting!"
 	line "Bye now!"
 	prompt
-

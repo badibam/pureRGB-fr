@@ -1,46 +1,48 @@
 _CeladonCityLittleGirlText::
-	text "I got my KOFFING"
-	line "in CINNABAR!"
-
-	para "It's nice, but it"
-	line "breathes poison"
-	cont "when it's angry!"
-	done
+text "J'ai eu mon"
+line "SMOGO à"
+cont "CRAMOIS'ILE!"
+para "Il est gentil"
+line "mais il crache du"
+cont "poison pour un"
+cont "rien!"
+done
 
 _CeladonCityGramps1Text::
-	text "Heheh! This GYM"
-	line "is great! It's"
-	cont "full of women!"
-	done
+text "Héhé! Cette ARENE"
+line "est terrible! Y'a"
+cont "plein d'meufs!"
+done
 
 _CeladonCityGirlText::
-	text "The GAME CORNER"
-	line "is bad for our"
-	cont "city's image!"
-	done
+text "Le CASINO n'est"
+line "pas très bon pour"
+cont "notre image!"
+done
 
 _CeladonCityGramps2Text::
-	text "Moan! I blew it"
-	line "all at the slots!"
-
-	para "I knew I should"
-	line "have cashed in my"
-	cont "coins for prizes!"
-	done
+text "Pfff... J'ai tout"
+line "perdu au CASINO!"
+para "J'aurais dû"
+line "acheter un prix"
+cont "avec mes jetons"
+cont "avant de tout"
+cont "claquer!"
+done
 
 _CeladonCityGramps3Text::
-	text "Hello, there!"
-
-	para "I've seen you,"
-	line "but I never had a"
-	cont "chance to talk!"
-
-	para "Here's a gift for"
-	line "dropping by!"
-	prompt
+text "Bonjour!"
+para "Enfin tu viens"
+line "me parler!"
+para "Allez, tiens!"
+line "C'est pour toi!"
+prompt
 
 _PewterGymReceivedTM34Text::
-_CeruleanGymMistyReceivedTM11Text::
+text "<PLAYER> reçoit"
+line "la CT34!@"
+text_end
+
 _VermilionGymLTSurgeReceivedTM24Text::
 _CeladonGymReceivedTM21Text::
 _CeladonCityGramps3ReceivedTM41Text::
@@ -65,57 +67,58 @@ _Route12Gate2FBrunetteGirlReceivedTM39Text::
 	text_end
 
 _CeladonCityGramps3TM41ExplanationText::
-	text "<TM>41 teaches"
-	line "MEDITATE!"
-
-	para "It raises ATTACK,"
-	line "SPECIAL and SPEED"
-	cont "all by one stage!"
-
-	para "Your #MON will"
-	line "be unstoppable!"
-	done
+text "La CT41 contient"
+line "E-COQUE!"
+para "Un seul #MON"
+line "peut l'utiliser:"
+para "LEVEINARD!"
+done
 
 _CeladonCityGramps3TM41NoRoomText::
-	text "Oh, your pack is"
-	line "full of items!"
-	done
+text "Oh! Ton sac est"
+line "plein!"
+done
 
 _CeladonCityFisherText::
-	text "This is my trusted"
-	line "pal, POLIWRATH!"
-
-	para "It evolved from"
-	line "POLIWHIRL when I"
-	cont "used WATER STONE!"
-	done
+text "C'est mon copain:"
+line "TARTARD!"
+para "Il n'était qu'un"
+line "TETARTE avant"
+cont "d'utiliser une"
+cont "PIERRE EAU!"
+done
 
 _CeladonCityPoliwrathText::
-	text "POLIWRATH: Ribi"
-	line "ribit!@"
-	text_end
+text "TARTARD: Tarta!"
+line "Taaaar!@"
+text_end
 
 _CeladonCityRocket1Text::
-	text "What are you"
-	line "staring at?"
-	done
+text "Kesstu mates?"
+done
 
 _CeladonCityRocket2Text::
-	text "Keep out of <TEAM>"
-	line "<ROCKET>'s way!"
-	done
+text "Laisse la TEAM"
+line "tranquille!"
+done
 
 _CeladonCityTrainerTips1Text::
-	text "<TIPS>"
+text "ASTUCE"
+para "PRECISION +"
+line "augmente la"
+cont "précision des"
+cont "attaques!"
+para "MUSCLE +"
+line "augmente les"
+cont "chances de coups"
+cont "critiques!"
+para "Les meilleurs"
+line "objets sont en"
+cont "vente au CENTRE"
+cont "COMMERCIAL de"
+cont "CELADOPOLE!"
+done
 
-	para "X ACCURACY boosts"
-	line "the accuracy of"
-	cont "techniques!"
-
-	para "DIRE HIT jacks up"
-	line "the likelihood of"
-	cont "critical hits!"
-	; fall through
 _GetYourItemsAtDeptStore::
 	para "Get your items at"
 	line "CELADON DEPT."
@@ -123,52 +126,55 @@ _GetYourItemsAtDeptStore::
 	done
 
 _CeladonCitySignText::
-	text "CELADON CITY"
-	para "The City of"
-	line "Rainbow Dreams"
-	done
+text "CELADOPOLE"
+line "Ville aux rêves"
+cont "arc-en-ciel"
+done
 
 _CeladonCityGymSignText::
-	text "CELADON CITY"
-	line "#MON GYM"
-	cont "LEADER: ERIKA"
-
-	para "The Nature Loving"
-	line "Princess!"
-	done
+text "CELADOPOLE"
+line "ARENE #MON"
+cont "CHAMPION: ERIKA"
+para "Le combat par"
+line "les plantes!"
+done
 
 _CeladonCityMansionSignText::
-	text "CELADON MANSION"
-	done
+text "MANOIR CELADON"
+done
 
 _CeladonCityDeptStoreSignText::
-	text "Find what you"
-	line "need at CELADON"
-	cont "DEPT. STORE!"
-	done
+text "Y'a tout c'qui"
+line "t'faut au CENTRE"
+cont "COMMERCIAL de"
+cont "CELADOPOLE!"
+done
 
 _CeladonCityTrainerTips2Text::
-	text "<TIPS>"
-
-	para "GUARD SPEC."
-	line "protects #MON"
-	cont "against status"
-	cont "moves like LEER"
-	cont "or SAND-ATTACK!@"
-
-	text_jump _GetYourItemsAtDeptStore
+text "ASTUCE"
+para "DEFENSE SPEC"
+line "protège les"
+cont "#MON des atta-"
+cont "ques SPECIALES"
+cont "telles que le feu"
+cont "ou l'eau!"
+para "Y'a tout c'qui"
+line "t'faut au CENTRE"
+cont "COMMERCIAL de"
+cont "CELADOPOLE!"
+done
 
 _CeladonCityPrizeExchangeSignText::
-	text "Coins exchanged"
-	line "for prizes!"
-	cont "PRIZE EXCHANGE"
-	done
+text "CHANGE"
+line "Des jetons contre"
+cont "de bô prix!"
+done
 
 _CeladonCityGameCornerSignText::
-	text "<ROCKET> GAME CORNER"
-	line "The playground"
-	cont "for grown-ups!"
-	done
+text "CASINO ROCKET"
+line "Club de jeu"
+cont "pour adultes!"
+done
 
 _CeladonCityText19::
 	text "<TIPS>"
@@ -180,4 +186,3 @@ _CeladonCityText19::
 	line "to change <PC>"
 	cont "boxes whenever"
 	cont "you like!"
-	done

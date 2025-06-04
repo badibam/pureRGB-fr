@@ -1,22 +1,27 @@
 _PewterSpeechHouseGamblerText::
-	text "#MON learn new"
-	line "techniques as"
-	cont "they grow!"
-
-	para "But, some moves"
-	line "must be taught by"
-	cont "the trainer!"
-	done
+text "Un #MON"
+line "apprend des"
+cont "attaques en"
+cont "gagnant des"
+cont "niveaux!"
+para "Mais certaines"
+line "attaques ne"
+cont "sont enseignées"
+cont "que par les"
+cont "dresseurs!"
+done
 
 _PewterSpeechHouseYoungsterText::
-	text "#MON become"
-	line "easier to catch"
-	cont "when they are"
-	cont "hurt or asleep!"
-
-	para "But, it's not a"
-	line "sure thing!"
-	done
+text "Les #MON sont"
+line "plus faciles à"
+cont "capturer une fois"
+cont "endormis ou"
+cont "blessés!"
+para "Mais attraper un"
+line "#MON, c'est"
+cont "jamais du tout"
+cont "cuit!"
+done
 
 _PewterHouse2Text3Intro::
 	text "My husband lost"
@@ -84,7 +89,6 @@ _PewterHouse2Text3Found::
 	line "have one!"
 	prompt
 
-
 _PewterHouse2Text3After::
 	text "How's ABRA doing?@"
 	text_end
@@ -92,4 +96,3 @@ _PewterHouse2Text3After::
 _ReceivedPocketAbraText::
 	text "<PLAYER> received"
 	line "a POCKET ABRA!@"
-	text_end

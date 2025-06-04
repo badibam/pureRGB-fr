@@ -99,4 +99,3 @@ _SafariZoneEastText6NotClassic::
 	para "Even if you've"
 	line "beaten them"
 	cont "before!"
-	done

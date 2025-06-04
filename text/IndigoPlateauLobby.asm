@@ -1,24 +1,21 @@
 _IndigoPlateauLobbyGymGuideText::
-	text "Yo! Champ in" ; TODO: genericize text
-	line "making!"
-
-	para "At #MON LEAGUE,"
-	line "you have to face"
-	cont "the ELITE FOUR in"
-	cont "succession."
-
-	para "If you lose, you"
-	line "have to start all"
-	cont "over again! This"
-	cont "is it! Go for it!"
-
-	para "If you need <TM>s"
-	line "just talk to"
-	cont "my son!"
-
-	para "He's a chip off"
-	line "the old block!@"
-	text_end
+text "Salut! Champion"
+line "en herbe!"
+para "Tu vas devoir"
+line "affronter le"
+cont "CONSEIL des 4"
+cont "dans l'ordre pour"
+cont "triompher de la"
+cont "LIGUE #MON."
+para "Si tu perds,"
+line "d'abord tu auras"
+cont "honte, et ensuite"
+cont "tu devras tout"
+cont "recommencer!"
+cont "Alors fais bien"
+cont "attention et..."
+cont "Ecrase-les!"
+done
 
 _IndigoPlateauGymGuideChampGreeting::
 	text "Yo! Champ!!"
@@ -51,15 +48,18 @@ _IndigoPlateauGymGuideChampAfterGreet::
 	text_end
 
 _IndigoPlateauLobbyCooltrainerFText::
-	text "From here on, you"
-	line "face the ELITE"
-	cont "FOUR one by one!"
-
-	para "If you win, a"
-	line "door opens to the"
-	cont "next trainer!"
-	cont "Good luck!"
-	done
+text "A partir d'ici,"
+line "tu affronteras"
+cont "les quatre"
+cont "membres du...."
+cont "CONSEIL des 4!"
+para "Remporte la"
+line "victoire et une"
+cont "porte s'ouvrira"
+cont "vers le prochain"
+cont "dresseur. Bonne"
+cont "chance, petit!"
+done
 
 _IndigoPlateauApexChipsAfterChamp::
 	text "If you beat the"

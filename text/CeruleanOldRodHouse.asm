@@ -32,4 +32,3 @@ _CeruleanOldRodHouseFoodText2::
 	para "I love cooking"
 	line "fish as much as I"
 	cont "do catching them!"
-	done

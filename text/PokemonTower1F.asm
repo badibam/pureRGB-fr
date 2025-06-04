@@ -1,34 +1,37 @@
 _PokemonTower1FReceptionistText::
-	text "#MON TOWER was"
-	line "erected in the"
-	cont "memory of #MON"
-	cont "that had died."
-	done
+text "La TOUR #MON a"
+line "été érigée en"
+cont "mémoire des"
+cont "braves #MON"
+cont "morts au combat."
+done
 
 _PokemonTower1FMiddleAgedWomanText::
-	text "Did you come to"
-	line "pay respects?"
-	cont "Bless you!"
-	done
+text "Tu es venu leur"
+line "rendre hommage?"
+cont "Grand bien t'en"
+cont "fasse!"
+done
 
 _PokemonTower1FBaldingGuyText::
-	text "I came to pray"
-	line "for my CLEFAIRY."
-
-	para "Sniff! I can't"
-	line "stop crying<...>"
-	done
+text "Je suis venu"
+line "prier pour mon"
+cont "MELOFEE."
+para "Sniff! J'arrête"
+line "pas de pleurer..."
+done
 
 _PokemonTower1FGirlText::
-	text "My GROWLITHE<...>"
-	line "Why did you die?"
-	done
+text "Mon CANINOS..."
+line "Reviens..."
+done
 
 _PokemonTower1FChannelerText::
-	text "I am a CHANNELER!"
-	line "There are spirits"
-	cont "up to mischief!"
-	done
+text "Je suis une"
+line "EXORCISTE! Je"
+cont "chasse les"
+cont "esprits!"
+done
 
 _PokemonTower1FRocketText::
 	text "Scram! No one's"

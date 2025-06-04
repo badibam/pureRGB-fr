@@ -1,126 +1,120 @@
 _CeruleanGymMistyPreBattleText::
-	text "Hi, you're a new"
-	line "face!"
-
-	para "Trainers who want"
-	line "to turn pro have"
-	cont "to have a policy"
-	cont "about #MON!"
-
-	para "What is your"
-	line "approach when you"
-	cont "catch #MON?"
-
-	para "My policy is an"
-	line "all-out offensive"
-	cont "with water-type"
-	cont "#MON!"
-	done
+text "Salut! T'es un"
+line "nouveau!"
+para "Si tu veux être"
+line "un vrai dresseur,"
+cont "il te faut une"
+cont "stratégie pour"
+cont "tes #MON!"
+para "C'est quoi ta"
+line "tactique pour"
+cont "capturer les"
+cont "#MON sauvages?"
+para "Moi je leur fonce"
+line "dans le tas avec"
+cont "mes #MON"
+cont "aquatiques!"
+done
 
 _CeruleanGymMistyTM11ExplanationText::
-	text "<TM>11 teaches"
-	line "BUBBLEBEAM!"
-
-	para "Use it on an"
-	line "aquatic #MON!"
-	done
+text "La CT11 contient"
+line "BULLES D'O!"
+para "Apprends-la à un"
+line "#MON de l'eau!"
+done
 
 _CeruleanGymMistyCascadeBadgeInfoText::
-	text "The CASCADEBADGE"
-	line "makes all #MON"
-	cont "up to L30 obey!"
-
-	para "That includes"
-	line "even outsiders!"
-
-	para "There's more, you"
-	line "can now use CUT"
-	cont "any time!"
-
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
-
-	para "You can also have"
-	line "my favorite <TM>!"
-	done
+text "Le BADGECASCADE"
+line "oblige tous les"
+cont "#MON d'un"
+cont "niveau inférieur"
+cont "à 30 à t'obéir!"
+para "Les échangés"
+line "aussi!"
+para "En plus, tu peux"
+line "maintenant"
+cont "utiliser la CS"
+cont "COUPE!"
+para "Tu peux COUPER"
+line "les arbustes"
+cont "et ouvrir de"
+cont "nouveaux chemins!"
+para "Tu gagnes aussi ma"
+line "CT favorite!"
+done
 
 _CeruleanGymMistyReceivedCascadeBadgeText::
-	text "Wow!"
-	line "You're too much!"
-
-	para "All right!"
-
-	para "You can have the"
-	line "CASCADEBADGE to"
-	cont "show you beat me!@"
-	text_end
+text "Whouha!"
+line "T'es super fort!"
+para "Très bien!"
+para "Je te donne le"
+line "BADGECASCADE pour"
+cont "m'avoir battue!@"
+text_end
 
 _CeruleanGymBattleText1::
-	text "I'm more than good"
-	line "enough for you!"
-
-	para "MISTY can wait!"
-	done
+text "Je suis très"
+line "balèze!"
+para "ONDINE attendra!"
+done
 
 _CeruleanGymEndBattleText1::
-	text "You"
-	line "overwhelmed me!"
-	prompt
+text "Oh!"
+line "J'me suis fait"
+cont "écraser!"
+prompt
 
 _CeruleanGymAfterBattleText1::
-	text "You have to face"
-	line "other trainers to"
-	cont "find out how good"
-	cont "you really are."
-	done
+text "Tu dois te battre"
+line "contre d'autres"
+cont "dresseurs pour"
+cont "connaître ton"
+cont "niveau."
+done
 
 _CeruleanGymBattleText2::
-	text "Splash!"
-
-	para "I'm first up!"
-	line "Let's do it!"
-	done
+text "Plaouff!"
+para "J'suis preums!"
+line "Baston!"
+done
 
 _CeruleanGymEndBattleText2::
-	text "That"
-	line "can't be!"
-	prompt
+text "Glargh!"
+line "C'est dingue!"
+prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
-	line "keep improving!"
-
-	para "She won't lose to"
-	line "someone like you!"
-	done
+text "ONDINE est super"
+line "forte!"
+para "Elle ne va pas"
+line "se faire avoir"
+cont "par un rigolo"
+cont "comme toi!"
+done
 
 _CeruleanGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
-
-	para "Here's my advice!"
-
-	para "The LEADER, MISTY,"
-	line "is a pro who uses"
-	cont "water #MON!"
-
-	para "You can drain all"
-	line "their water with"
-	cont "plant #MON!"
-
-	para "Or, zap them with"
-	line "electricity!"
-	done
+text "Salut à toi!"
+line "Futur champion!"
+para "Un conseil?"
+para "La CHAMPIONNE,"
+line "ONDINE, est une"
+cont "spécialiste des"
+cont "#MON de l'eau!"
+para "Absorbe l'eau"
+line "avec des #MON"
+cont "des plantes!"
+para "Ou grille-les"
+line "avec de"
+cont "l'électricité!"
+done
 
 _CeruleanGymGymGuideBeatMistyText::
-	text "You beat MISTY!"
-	line "What'd I tell ya?"
-
-	para "You and me kid,"
-	line "we make a pretty"
-	cont "darn good team!@"
-	text_end
+text "Tu as battu"
+line "ONDINE! Génial!"
+para "Toi et moi, on"
+line "forme une super"
+cont "équipe!"
+done
 
 _GymGuideMoreApexChipText::
 	text "I've got two more"
@@ -133,4 +127,3 @@ _CeruleanGymGuideApexChipWaterText::
 	cont "evoke a beautiful"
 	cont "ocean or river"
 	cont "biome."
-	prompt

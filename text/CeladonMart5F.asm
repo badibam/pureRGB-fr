@@ -1,25 +1,23 @@
 _CeladonMart5FGentlemanText::
-	text "#MON ability"
-	line "enhancers can be"
-	cont "bought only here."
-
-	para "Use CALCIUM to"
-	line "increase SPECIAL"
-	cont "abilities."
-
-	para "Use CARBOS to"
-	line "increase SPEED."
-	done
+text "Les accélérateurs"
+line "de #MON sont"
+cont "en vente ici."
+para "Le CALCIUM"
+line "augmente les"
+cont "capacités"
+cont "SPECIALES."
+para "Le CARBONE"
+line "augmente la"
+cont "VITESSE."
+done
 
 _CeladonMart5FSailorText::
-	text "I'm here for"
-	line "#MON ability"
-	cont "enhancers."
-
-	para "PROTEIN increases"
-	line "ATTACK power."
-
-	para "IRON increases"
-	line "DEFENSE!"
-	done
-
+text "J'veux acheter un"
+line "accélérateur de"
+cont "#MON!"
+para "Une PROTEINE"
+line "augmentera"
+cont "l'ATTAQUE."
+para "Le FER augmente"
+line "la DEFENSE!"
+done

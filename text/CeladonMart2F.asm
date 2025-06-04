@@ -1,15 +1,15 @@
 _CeladonMart2FMiddleAgedManText::
-	text "SUPER REPEL keeps"
-	line "weak #MON at"
-	cont "bay<...>"
-
-	para "Hmm, it's a more"
-	line "powerful REPEL!"
-	done
+text "Le SUPEREPOUSSE"
+line "tient les faibles"
+cont "#MON à"
+cont "l'écart..."
+para "C'est un REPOUSSE"
+line "plus puissant!"
+done
 
 _CeladonMart2FGirlText::
-	text "For long outings,"
-	line "you should buy"
-	cont "REVIVE."
-	done
-
+text "Equipe-toi de"
+line "RAPPELS avant"
+cont "de partir à"
+cont "l'aventure."
+done

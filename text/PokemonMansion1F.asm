@@ -1,18 +1,18 @@
 _PokemonMansion1FScientistBattleText::
-	text "Who are you? There"
-	line "shouldn't be"
-	cont "anyone here."
-	done
+text "Qui es-tu?"
+line "C'est interdit"
+cont "eud' se balader."
+done
 
 _PokemonMansion1FScientistEndBattleText::
-	text "Ouch!"
-	prompt
+text "Aïe!"
+prompt
 
 _PokemonMansion1FScientistAfterBattleText::
-	text "A key? I don't"
-	line "know what you're"
-	cont "talking about."
-	done
+text "Une clé? Je ne"
+line "sais pas d'quoi"
+cont "tu parles."
+done
 
 _Mansion1BattleText2::
 	text "Shh!"
@@ -75,18 +75,14 @@ _Mansion1AfterBattleText4::
 	done
 
 _PokemonMansion2FSwitchText::
-_PokemonMansion1FSwitchText::
-	text "A secret switch!"
-
-	para "Press it?"
-	done
+text "Un interrupteur!"
+para "L'actionner?"
+done
 
 _PokemonMansion2FSwitchPressedText::
-_PokemonMansion1FSwitchPressedText::
-	text "Who wouldn't?"
-	prompt
+text "Sans blague..."
+prompt
 
 _PokemonMansion2FSwitchNotPressedText::
-_PokemonMansion1FSwitchNotPressedText::
-	text "Not quite yet!"
-	done
+text "Pas vraiment!"
+done

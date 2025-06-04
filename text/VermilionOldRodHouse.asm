@@ -1,8 +1,11 @@
 _VermilionOldRodHouseFishingGuruDoYouLikeToFishText::
-	text "I'm the FISHING"
-	line "GURU's older"
-	cont "brother!@"
-	text_end
+text "Je suis le..."
+line "MAITRE PECHEUR!"
+para "La pêche...moi..."
+line "J'adore ça!"
+para "Et toi, p'tite"
+line "tête?"
+done
 
 _VermilionOldRodHouseISimplyLoveFishing::
 	text "<PARA>I simply Looove"
@@ -13,25 +16,22 @@ _VermilionOldRodHouseISimplyLoveFishing::
 	done
 
 _VermilionOldRodHouseFishingGuruTakeThisText::
-	text "Grand! I like"
-	line "your style!"
-
-	para "Take this and"
-	line "fish, young one!"
-
-	para "<PLAYER> received" ; TODO: remove?
-	line "a @"
-	text_ram wStringBuffer
-	text "!@"
-	text_end
+text "Terrib'! Toi,"
+line "j't'aime bien!"
+para "Prends ça et..."
+line "Pêche! Pêche!"
+para "<PLAYER> reçoit"
+line "@"
+text_ram wStringBuffer
+text "!@"
+text_end
 
 _VermilionOldRodHouseFishingGuruHowAreTheFishBitingText::
-	text "Hello there,"
-	line "<PLAYER>!"
-
-	para "How are the fish"
-	line "biting?@"
-	text_end
+text "B'jour à toi,"
+line "<PLAYER>!"
+para "Ca mord?"
+line "Hein? Hein?"
+done
 
 _VermilionOldRodHouseGoodRodInfo::
 	text "<PARA>That GOOD ROD I"

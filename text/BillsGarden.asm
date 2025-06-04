@@ -11,8 +11,6 @@ _BillsGardenEavesdropQuestion::
 	text "Eavesdrop on them?"
 	prompt
 
-; Erika and Sabrina
-
 _BillsGardenErikaSabrinaOverheardText::
 	text "ERIKA: I'm so glad"
 	line "MISTY showed us"
@@ -109,8 +107,6 @@ _BillsGardenSabrinaText::
 	para "No CHAMP allowed."
 	line "Off you go!"
 	done
-
-; Blue and Daisy
 
 _BillsGardenBlueDaisyOverheardText::
 	text "<RIVAL>: I was"
@@ -224,8 +220,6 @@ _BillsGardenDaisyText2::
 	cont "will ya?"
 	done
 
-; bike shop guy and misty
-
 _BillsGardenBikeShopOwnerMistyOverheardText::
 	text "MISTY: Tee hee-"
 	para "This quiet beach"
@@ -288,8 +282,6 @@ _BillsGardenMistyText3::
 	line "repay you for my"
 	cont "nice new BICYCLE?"
 	done
-
-; agatha and oak
 
 _BillsGardenAgathaOakOverheardText::
 	text "AGATHA: You old"
@@ -392,8 +384,6 @@ _BillsGardenOakText4::
 _BillsGardenOakText5::
 	text "AGATHA: Hmph!"
 	done
-
-; mr fuji and giovanni
 
 _BillsGardenMrFujiGiovanniOverheardText::
 	text "GIOVANNI: I"
@@ -516,8 +506,6 @@ _BillsGardenGiovanniArmoredMewtwoText::
 	line "MEWTWO was okay"
 	cont "with donning it."
 	done
-
-; mom and dad
 
 _BillsGardenDadText::
 	text "DAD: Look who"

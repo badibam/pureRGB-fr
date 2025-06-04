@@ -1,86 +1,81 @@
 _WardensHouseWardenGibberish1Text::
-	text "WARDEN: Hif fuff"
-	line "hefifoo!"
-
-	para "Ha lof ha feef ee"
-	line "hafahi ho. Heff"
-	cont "hee fwee!"
-	done
+text "GARDIEN: Hif fuff"
+line "hefifou!"
+para "Ha fof ha fif eu"
+line "hafahi ho. Heff"
+cont "hi fwi!"
+done
 
 _WardensHouseWardenGibberish2Text::
-	text "Ah howhee ho hoo!"
-	line "Eef ee hafahi ho!"
-	done
+text "Ah hahee ho hoo!"
+line "Eef ee hafahi ho!"
+done
 
 _WardensHouseWardenGibberish3Text::
-	text "Ha? He ohay heh"
-	line "ha hoo ee haheh!"
-	done
+text "Ha? Hai fou heh"
+line "ha hoo ih haheh!"
+done
 
 _WardensHouseWardenGaveTheGoldTeethText::
-	text "<PLAYER> gave the"
-	line "GOLD TEETH to the"
-	cont "WARDEN!@"
-	text_end
+text "<PLAYER> donne la"
+line "DENT D'OR au"
+cont "GARDIEN!@"
+text_end
 
 _WardensHouseWardenTeethPoppedInHisTeethText::
-	text_start
-
-	para "The WARDEN popped"
-	line "in his teeth!"
-	prompt
+text_start
+para "Le GARDIEN peut"
+line "remettre son"
+cont "dentier!"
+prompt
 
 _WardensHouseWardenThanksText::
-	text "WARDEN: Thanks,"
-	line "kid! No one could"
-	cont "understand a word"
-	cont "that I said."
-
-	para "I couldn't work"
-	line "that way."
-	cont "Let me give you"
-	cont "something for"
-	cont "your trouble."
-	prompt
+text "GARDIEN: Merci,"
+line "gamin! C'est un"
+cont "peu dur de me"
+cont "faire comprendre."
+para "J'pouvais plus"
+line "travailler!"
+cont "Quelle horreur!"
+cont "Tiens, voilà pour"
+cont "te remercier."
+prompt
 
 _WardensHouseWardenHM04ExplanationText::
-	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
-
-	para "It lets #MON"
-	line "move boulders"
-	cont "when you're out-"
-	cont "side of battle."
-
-	para "Oh yes, did you"
-	line "find SECRET HOUSE"
-	cont "in SAFARI ZONE?"
-
-	para "If you do, you"
-	line "win an HM!"
-
-	para "I hear it's the"
-	line "rare SURF HM."
-	done
+text "GARDIEN: CS04..."
+line "FORCE!"
+para "Tes #MON"
+line "pourront déplacer"
+cont "des rochers."
+para "Au fait, as-tu"
+line "trouvé la CABANE"
+cont "SECRETE dans le"
+cont "PARC SAFARI?"
+para "Trouve-la et"
+line "gagne une CS!"
+para "On raconte que"
+line "cette CS est... "
+cont "SURF!"
+done
 
 _WardensHouseWardenHM04NoRoomText::
-	text "Your pack is"
-	line "stuffed full!"
-	done
+text "Ton sac est"
+line "plein!"
+done
 
 _WardensHouseDisplayPhotosAndFossilsText::
-	text "#MON photos"
-	line "and fossils."
-	done
+text "Photos et"
+line "fossiles de"
+cont "#MON."
+done
 
 _WardensHouseDisplayMerchandiseText::
-	text "Old #MON"
-	line "merchandise."
-	done
+text "Tout plein de"
+line "trucs #MON!"
+done
 
 _WardensHouseDeskPapersText::
 	text "A document that"
 	line "reads:"
 	para "DENTAL IMPLANTS"
 	line "REQUISITION"
-	done

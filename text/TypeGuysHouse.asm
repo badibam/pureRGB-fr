@@ -66,6 +66,7 @@ _TypeGuysHouseShortBookCaseText::
 	text "NURTURING HOBBY"
 	line "COMMUNITIES@"
 	text_end
+
 _TypeGuysHouseShortBookCaseText2::
 	text "<PARA>In hobbies,"
 	line "purists carry"
@@ -95,6 +96,7 @@ _TypeGuysHouseRightTallBookcaseText::
 	text "INDIGO PLATEAU"
 	line "HISTORY@"
 	text_end
+
 _TypeGuysHouseRightTallBookcaseText2::
 	text "<PARA>CHAMPs, even"
 	line "former ones, are"
@@ -109,6 +111,7 @@ _TypeGuysHouseLeftTallBookcaseText::
 	text "ROCKSTAR'S GUIDE"
 	line "TO GEODUDE@"
 	text_end
+
 _TypeGuysHouseLeftTallBookcaseText2::
 	text "<PARA>Older GEODUDE"
 	line "have bodies that"
@@ -131,4 +134,3 @@ _TypeGuysHouseTypeGuysComputerText::
 	line "ELECTRODE Lv79"
 	para "MR.MIME   Lv75"
 	line "PINSIR    Lv79"
-	done

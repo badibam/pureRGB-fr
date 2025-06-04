@@ -1,159 +1,170 @@
 _Route25Youngster1BattleText::
-	text "Local trainers"
-	line "come here to"
-	cont "practice!"
-	done
+text "Les dresseurs"
+line "viennent ici pour"
+cont "s'entraîner!"
+done
 
 _Route25Youngster1EndBattleText::
-	text "You're"
-	line "decent."
-	prompt
+text "Tu es"
+line "bon gagnant."
+prompt
 
 _Route25Youngster1AfterBattleText::
-	text "All #MON have"
-	line "weaknesses. It's"
-	cont "best to raise"
-	cont "different kinds."
-	done
+text "Chaque #MON a"
+line "ses faiblesses."
+cont "Il vaut mieux te"
+cont "faire une équipe"
+cont "avec des #MON"
+cont "variés."
+done
 
 _Route25Youngster2BattleText::
-	text "Dad took me to a"
-	line "great party on"
-	cont "S.S.ANNE at"
-	cont "VERMILION CITY!"
-	done
+text "Je suis allé à"
+line "une super fête."
+cont "C'était sur"
+cont "L'OCEANE, à"
+cont "CARMIN SUR MER!"
+done
 
 _Route25Youngster2EndBattleText::
-	text "I'm"
-	line "not mad!"
-	prompt
+text "Yaha!"
+line "J'suis pas fou!"
+prompt
 
 _Route25Youngster2AfterBattleText::
-	text "On S.S.ANNE, I"
-	line "saw trainers from"
-	cont "around the world."
-	done
+text "Sur L'OCEANE,"
+line "j'ai vu des"
+cont "dresseurs du"
+cont "monde entier."
+done
 
 _Route25CooltrainerMBattleText::
-	text "I'm a cool guy."
-	line "I've got a girl"
-	cont "friend!"
-	done
+text "J'suis cool."
+line "Et j'ai une"
+cont "copine aussi!"
+done
 
 _Route25CooltrainerMEndBattleText::
-	text "Aww,"
-	line "darn<...>"
-	prompt
+text "Zut!"
+line "Zut, zut et zut!"
+prompt
 
 _Route25CooltrainerMAfterBattleText::
-	text "Oh well. My girl"
-	line "will cheer me up."
-	done
+text "Ma copine va"
+line "m'encourager."
+done
 
 _Route25CooltrainerF1BattleText::
-	text "Hi! My boyfriend"
-	line "is cool!"
-	done
+text "Mon p'tit copain,"
+line "c'est le plus"
+cont "beau de tous!"
+cont "J'ai le plus beau"
+cont "de tous les"
+cont "copains du monde!"
+done
 
 _Route25CooltrainerF1EndBattleText::
-	text "I was in"
-	line "bad condition!"
-	prompt
+text "Hmm..."
+line "J'pensais à mon"
+cont "mec!"
+prompt
 
 _Route25CooltrainerF1AfterBattleText::
-	text "I wish my guy was"
-	line "as good as you!"
-	done
+text "Mon mec à moi, il"
+line "est très fort!"
+done
 
 _Route25Youngster3BattleText::
-	text "I knew I had to"
-	line "fight you!"
-	done
+text "Y'a un dresseur"
+line "de trop ici!"
+done
 
 _Route25Youngster3EndBattleText::
-	text "I knew"
-	line "I'd lose too!"
-	prompt
+text "Ben..."
+line "J'suis d'trop!"
+prompt
 
 _Route25Youngster3AfterBattleText::
-	text "If your #MON"
-	line "gets confused or"
-	cont "falls asleep,"
-	cont "switch it!"
-	done
+text "Si ton #MON"
+line "est devenu fou ou"
+cont "s'est endormi,"
+cont "rappelle-le!"
+done
 
 _Route25CooltrainerF2BattleText::
-	text "My friend has a"
-	line "cute #MON."
-	cont "I'm so jealous!"
-	done
+text "Mon copain a des"
+line "#MON trognons!"
+cont "Je suis jalouse!"
+done
 
 _Route25CooltrainerF2EndBattleText::
-	text "I'm"
-	line "not so jealous!"
-	prompt
+text "J'suis"
+line "pas jalouse,"
+cont "j'suis nulle!"
+prompt
 
 _Route25CooltrainerF2AfterBattleText::
-	text "You came from MT."
-	line "MOON? May I have"
-	cont "a CLEFAIRY?"
-	done
+text "Tu viens du MONT"
+line "SELENITE? Tu as"
+cont "un MELOFEE?"
+done
 
 _Route25Hiker1BattleText::
-	text "I just got down"
-	line "from MT.MOON,"
-	cont "but I'm ready!"
-	done
+text "J'arrive du MONT"
+line "SELENITE, et je"
+cont "suis prêt!"
+done
 
 _Route25Hiker1EndBattleText::
-	text "You"
-	line "worked hard!"
-	prompt
+text "Pfiou!"
+line "T'es un balèze!"
+prompt
 
 _Route25Hiker1AfterBattleText::
-	text "Drat!"
-	line "A ZUBAT bit me"
-	cont "back in there."
-	done
+text "Aaaaaaargh!"
+line "Je me suis fait"
+cont "mordre par un"
+cont "NOSFERAPTI."
+done
 
 _Route25Hiker2BattleText::
-	text "I'm off to see a"
-	line "#MON collector"
-	cont "at the cape!"
-	done
+text "Je cherche le"
+line "collectionneur de"
+cont "#MON!"
+done
 
 _Route25Hiker2EndBattleText::
-	text "You"
-	line "got me."
-	prompt
+text "Heu!"
+line "J'suis eu."
+prompt
 
 _Route25Hiker2AfterBattleText::
-	text "The collector has"
-	line "many rare kinds"
-	cont "of #MON."
-	done
+text "Le collectionneur"
+line "a plein de"
+cont "#MON rares."
+done
 
 _Route25Hiker3BattleText::
-	text "You're going to"
-	line "see BILL? First,"
-	cont "let's fight!"
-	done
+text "Tu vas voir LEO?"
+line "Ok, mais d'abord,"
+cont "BASTOONNN!"
+done
 
 _Route25Hiker3EndBattleText::
-	text "You're"
-	line "something."
-	prompt
+text "Hmm."
+line "Tu te bats bien."
+prompt
 
 _Route25Hiker3AfterBattleText::
-	text "The trail below"
-	line "is a shortcut to"
-	cont "CERULEAN CITY."
-	done
+text "La route, en bas,"
+line "est un raccourci"
+cont "vers AZURIA."
+done
 
 _Route25BillSignText::
-	text "SEA COTTAGE"
-	line "BILL lives here!"
-	done
+text "VILLA"
+line "LEO habite ici!"
+done
 
 _Route25Text12::
 	text "<TIPS>"

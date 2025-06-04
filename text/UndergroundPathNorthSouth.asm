@@ -29,7 +29,7 @@ _UndergroundPathNorthSouthEndBattleText2::
 	text "Knock-"
 	line "out!"
 	prompt
- 
+
 _UndergroundPathNorthSouthAfterBattleText2::
 	text "Battling in low-"
 	line "light conditions"

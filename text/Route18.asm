@@ -1,49 +1,52 @@
 _Route18CooltrainerM1BattleText::
-	text "I always check"
-	line "every grassy area"
-	cont "for new #MON."
-	done
+text "Je fouille les"
+line "hautes herbes"
+cont "pour y trouver"
+cont "des #MON."
+done
 
 _Route18CooltrainerM1EndBattleText::
-	text "Tch!"
-	prompt
+text "Oh!"
+prompt
 
 _Route18CooltrainerM1AfterBattleText::
-	text "I wish I had a"
-	line "BIKE!"
-	done
+text "Ah, si j'avais"
+line "une meule!"
+done
 
 _Route18CooltrainerM2BattleText::
-	text "Kurukkoo!"
-	line "How do you like"
-	cont "my bird call?"
-	done
+text "Cui cui cui!"
+line "J'fais l'oiseau,"
+cont "hein?"
+done
 
 _Route18CooltrainerM2EndBattleText::
-	text "I"
-	line "had to bug you!"
-	prompt
+text "..."
+line "J'suis cuit!"
+prompt
 
 _Route18CooltrainerM2AfterBattleText::
-	text "I also collect sea"
-	line "#MON on"
-	cont "weekends!"
-	done
+text "Le week-end, je"
+line "collectionne"
+cont "les #MON"
+cont "aquatiques!"
+done
 
 _Route18CooltrainerM3BattleText::
-	text "This is my turf!"
-	line "Get out of here!"
-	done
+text "T'es sur mon"
+line "gazon, dégage!"
+done
 
 _Route18CooltrainerM3EndBattleText::
-	text "Darn!"
-	prompt
+text "Ah?"
+prompt
 
 _Route18CooltrainerM3AfterBattleText::
-	text "This is my fave"
-	line "#MON hunting"
-	cont "area!"
-	done
+text "C'est mon endroit"
+line "préféré pour"
+cont "chasser les"
+cont "#MON!"
+done
 
 _Route18BattleText4::
 	text "Out of the way!!"
@@ -84,13 +87,13 @@ _Route18AfterBattleText5::
 	done
 
 _Route18SignText::
-	text "ROUTE 18"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
-	done
+text "ROUTE 18"
+line "CELADOPOLE -"
+cont "PARMANIE"
+done
 
 _Route18CyclingRoadSignText::
-	text "CYCLING ROAD"
-	line "No pedestrians"
-	cont "permitted!"
-	done
+text "PISTE CYCLABLE"
+line "Interdite aux"
+cont "piétons!"
+done

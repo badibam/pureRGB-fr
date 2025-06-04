@@ -1,34 +1,36 @@
 _ViridianMartClerkSayHiToOakText::
-	text "Okay! Say hi to"
-	line "PROF.OAK for me!"
-	done
+text "Cool! Tu diras"
+line "bonjour au PROF."
+cont "CHEN de ma part!"
+done
 
 _ViridianMartClerkYouCameFromPalletTownText::
-	text "Hey! You came from"
-	line "PALLET TOWN?"
-	done
+text "Hé! Tu viens de"
+line "BOURG PALETTE?"
+done
 
 _ViridianMartClerkParcelQuestText::
-	text "You know PROF."
-	line "OAK, right?"
-
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
-
-	para "<PLAYER> got"
-	line "OAK's PARCEL!@"
-	text_end
+text "Tu connais le"
+line "PROF. CHEN?"
+para "Sa commande vient"
+line "d'arriver."
+cont "Peux-tu la lui"
+cont "apporter?"
+para "<PLAYER> obtient"
+line "le COLIS DE CHEN!@"
+text_end
 
 _ViridianMartYoungsterText::
-	text "This shop sells"
-	line "many ANTIDOTEs."
-	done
+text "On vend des"
+line "ANTIDOTES dans"
+cont "cette boutique."
+done
 
 _ViridianMartCooltrainerMText::
-	text "No! POTIONs are"
-	line "all sold out."
-	done
+text "Plus de POTIONS!"
+line "Nous sommes en"
+cont "rupture de stock."
+done
 
 _ViridianMartTMKid::
 	text "Yo! Can you"
@@ -76,4 +78,3 @@ _TMKidBigStockIndigo::
 
 	para "I'll be waiting!"
 	line "Catch you later!"
-	done

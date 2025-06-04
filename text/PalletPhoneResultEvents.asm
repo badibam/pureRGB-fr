@@ -182,4 +182,3 @@ _DaisyTeaEnd::
 	cont "like some tea."
 	para "Thanks for"
 	line "coming, bye!"
-	done

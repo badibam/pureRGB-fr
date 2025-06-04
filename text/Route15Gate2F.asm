@@ -17,12 +17,12 @@ _Route15Gate2FOaksAideBoosterChipText::
 	done
 
 _Route15Gate2FBinocularsText::
-	text "Looked into the"
-	line "binoculars."
-
-	para "It looks like a"
-	line "small island!"
-	done
+text "Vous regardez"
+line "dans les"
+cont "jumelles."
+para "Vous voyez une"
+line "petite île!"
+done
 
 _Route15GateUpstairsRemoveBoosterText::
 	text "Ah, I see you"
@@ -43,4 +43,3 @@ _Route15GateUpstairsRemoveBoosterText::
 _Route15GateUpstairsDoneText::
 	text "Done! Here's the"
 	line "BOOSTER CHIP!@"
-	text_end

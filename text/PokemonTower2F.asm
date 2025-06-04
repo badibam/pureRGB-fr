@@ -1,62 +1,57 @@
 _PokemonTower2FRivalWhatBringsYouHereText::
-	text "<RIVAL>: Hey,"
-	line "<PLAYER>! What"
-	cont "brings you here?"
-	cont "Your #MON"
-	cont "don't look dead!"
-
-	para "I can at least"
-	line "make them faint!"
-	cont "Let's go, pal!"
-	done
+text "<RIVAL>: Hé,"
+line "<PLAYER>!"
+cont "Kesstu fais là?"
+cont "Tes #MON sont"
+cont "pas morts!"
+para "Je peux quand"
+line "même les mettre"
+cont "K.O.! Minable!"
+done
 
 _PokemonTower2FRivalDefeatedText::
-	text "What?"
-	line "You stinker!"
-
-	para "I took it easy on"
-	line "you too!"
-	prompt
+text "Hein?"
+line "Petit fennec!"
+para "Je ne t'ai pas"
+line "pris au sérieux!"
+cont "M-I-N-A-B-L-E!"
+prompt
 
 _PokemonTower2FRivalVictoryText::
-	text "Well,"
-	line "look at all your"
-	cont "wimpy #MON!"
-
-	para "Toughen them up a"
-	line "bit more!"
-	prompt
+text "<RIVAL>: Haha,"
+line "Tes #MON sont"
+cont "minables..."
+cont "Comme toi!"
+para "Tu devrais les"
+line "entraîner un peu!"
+prompt
 
 _PokemonTower2FRivalHowsYourDexText::
-	text "How's your #DEX"
-	line "coming, pal?"
-	cont "I just caught a"
-	cont "CUBONE!"
-
-	para "I can't find the"
-	line "grown-up MAROWAK"
-	cont "yet!"
-
-	para "I doubt there are"
-	line "any left! Well, I"
-	cont "better get going!"
-	cont "I've got a lot to"
-	cont "accomplish, pal!"
-
-	para "Smell ya later!"
-	done
+text "Où en est ton"
+line "#DEX? Je"
+cont "viens de capturer"
+cont "un OSSELAIT!"
+para "Je n'ai pas"
+line "encore trouvé de"
+cont "OSSATUEUR!"
+para "Je crois qu'il"
+line "n'en existe plus!"
+cont "Je dois y aller,"
+cont "minable! J'ai du"
+cont "pain sur la"
+cont "planche, minable!"
+para "A bientôt..."
+line "Gros minable!"
+done
 
 _PokemonTower2FChannelerText::
-	text "Even we could not"
-	line "identify the"
-	cont "wayward GHOSTs!"
-
-	para "A @"
-	text_ram wNameBuffer
-	text_start
-	line "might be able to"
-	cont "unmask them."
-	done
+text "Nous ne pouvons"
+line "identifier les"
+cont "SPECTRES!"
+para "Un SCOPE SYLPHE"
+line "pourrait les"
+cont "démasquer."
+done
 
 _PokemonTower2FChannelerText2::
 	text "Thanks for"

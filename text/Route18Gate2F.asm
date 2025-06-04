@@ -1,15 +1,15 @@
 _Route18Gate2FLeftBinocularsText::
-	text "Looked into the"
-	line "binoculars."
-
-	para "PALLET TOWN is in"
-	line "the west!"
-	done
+text "Vous regardez"
+line "dans les"
+cont "jumelles."
+para "BOURG PALETTE"
+line "est à l'Ouest!"
+done
 
 _Route18Gate2FRightBinocularsText::
-	text "Looked into the"
-	line "binoculars."
-
-	para "There are people"
-	line "swimming!"
-	done
+text "Vous regardez"
+line "dans les"
+cont "jumelles."
+para "C'est plein"
+line "de nageurs!"
+done

@@ -1,86 +1,83 @@
 _CinnabarGymBlainePreBattleText::
-	text "Hah!"
-
-	para "I am BLAINE! I"
-	line "am the LEADER of"
-	cont "CINNABAR GYM!"
-
-	para "My fiery #MON"
-	line "will incinerate"
-	cont "all challengers!"
-
-	para "Hah! You better"
-	line "have BURN HEAL!"
-	done
+text "Salutations."
+para "Mon nom est..."
+line "AUGUSTE! Je suis"
+cont "le CHAMPION de"
+cont "l'ARENE de"
+cont "CRAMOIS'ILE!"
+para "Mes #MON"
+line "flamboyants vont"
+cont "te réduire en"
+cont "cendres!"
+para "Haha! J'espère"
+line "que tu as de"
+cont "l'ANTI-BRULE!"
+cont "Y va bientôt"
+cont "faire très chaud!"
+done
 
 _CinnabarGymBlaineReceivedVolcanoBadgeText::
-	text "I have"
-	line "burnt out!"
-
-	para "You have earned"
-	line "the VOLCANOBADGE!@"
-	text_end
+text "Vlouff!"
+line "Je me suis fait"
+cont "vaporiser!"
+para "Tu as gagné le"
+line "BADGE VOLCAN!@"
+text_end
 
 _CinnabarGymBlainePostBattleAdviceText::
-	text "FIRE BLAST is the"
-	line "ultimate fire"
-	cont "technique!"
-
-	para "Don't waste it on"
-	line "water #MON!"
-	done
+text "DEFLAGRATION est"
+line "la technique de"
+cont "feu ultime!"
+para "Ne la donne pas"
+line "à un #MON de"
+cont "l'eau, ça ferait"
+cont "pas bon ménage!"
+done
 
 _CinnabarGymBlaineVolcanoBadgeInfoText::
-	text "Hah!"
-
-	para "The VOLCANOBADGE"
-	line "heightens the"
-	cont "SPECIAL abilities"
-	cont "of your #MON!"
-
-	para "Here, you can"
-	line "have this too!"
-	done
+text "Haha!"
+para "Le BADGE VOLCAN"
+line "augmente le"
+cont "SPECIAL de tes"
+cont "#MON!"
+para "Prends ça aussi!"
+done
 
 _CinnabarGymBlaineTM38ExplanationText::
-	text_start
-	para "@"
-	text_ram wStringBuffer
-	text " contains"
-	line "FIRE BLAST!"
-
-	para "Teach it to fire-"
-	line "type #MON!"
-
-	para "CHARMELEON or"
-	line "PONYTA would be"
-	cont "good bets!"
-	done
+text_start
+para "CT38 :"
+line "DEFLAGRATION!"
+para "Elle convient à"
+line "un #MON du"
+cont "feu!"
+para "REPTINCEL ou"
+line "PONYTA feront"
+cont "l'affaire!"
+done
 
 _CinnabarGymBlaineTM38NoRoomText::
-	text "Make room for my"
-	line "gift!"
-	done
+text "Ton inventaire"
+line "est plein!"
+done
 
 _CinnabarGymSuperNerd1BattleText::
-	text "Do you know how"
-	line "hot #MON fire"
-	cont "breath can get?"
-	done
+text "Un #MON du"
+line "feu, c'est chaud!"
+done
 
 _CinnabarGymSuperNerd1EndBattleText::
-	text "Yow!"
-	line "Hot, hot, hot!"
-	prompt
+text "Yaha!"
+line "Fait chaud, non?"
+prompt
 
 _CinnabarGymSuperNerd1AfterBattleText::
-	text "Fire, or to be"
-	line "more precise,"
-	cont "combustion<...>"
-
-	para "Blah, blah, blah,"
-	line "blah<...>"
-	done
+text "Le feu, ça brûle,"
+line "les flammes, faut"
+cont "pas mettre la"
+cont "main d'dans..."
+para "Brûle, brûle..."
+line "J'aime le feu..."
+done
 
 _CinnabarGymBurglar1BattleText::
 	text "I was a thief, but"
@@ -101,21 +98,26 @@ _CinnabarGymBurglar1AfterBattleText::
 	done
 
 _CinnabarGymSuperNerd2BattleText::
-	text "You can't win!"
-	line "I have studied"
-	cont "#MON totally!"
-	done
+text "Avant, j'étais un"
+line "voleur, j'avais"
+cont "honte..."
+cont "Aujourd'hui je"
+cont "suis un dresseur"
+cont "et je suis fier!"
+done
 
 _CinnabarGymSuperNerd2EndBattleText::
-	text "Waah!"
-	line "My studies!"
-	prompt
+text "Ah!"
+line "J'ai honte, je me"
+cont "rends!"
+prompt
 
 _CinnabarGymSuperNerd2AfterBattleText::
-	text "My theories are"
-	line "too complicated"
-	cont "for you!"
-	done
+text "Je vole, j'y peux"
+line "rien. Je vole des"
+cont "#MON, et"
+cont "j'me marre bien!"
+done
 
 _CinnabarGymBurglar2BattleText::
 	text "I just like using"
@@ -187,24 +189,25 @@ _CinnabarGymFirefighter2AfterBattleText::
 	done
 
 _CinnabarGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
-
-	para "The hot-headed"
-	line "BLAINE is a fire"
-	cont "#MON pro!"
-
-	para "Douse his spirits"
-	line "with water!"
-
-	para "You better take"
-	line "some BURN HEALs!"
-	done
+text "Salut! Graine de"
+line "champion!"
+para "AUGUSTE, le"
+line "flamboyant, est"
+cont "un pro des"
+cont "#MON de feu!"
+para "C'est le moment"
+line "de jeter de"
+cont "l'eau sur le feu!"
+para "Prends donc des"
+line "ANTI-BRULE avec"
+cont "toi! Ca peut"
+cont "toujours servir!"
+done
 
 _CinnabarGymGymGuideBeatBlaineText::
-	text "<PLAYER>! You beat"
-	line "that fire brand!@"
-	text_end
+text "<PLAYER>! Tu as"
+line "battu AUGUSTE!"
+done
 
 _CinnabarGymGuideApexChipFireText::
 	text "An APEX CHIP will"

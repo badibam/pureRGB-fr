@@ -1,75 +1,74 @@
 _BikeShopClerkWelcomeText::
-	text "Hi! Welcome to"
-	line "our BIKE SHOP."
-
-	para "Have we got just"
-	line "the BIKE for you!"
-	prompt
+text "Bienvenue au"
+line "CYCLES A GOGO."
+para "Nous avons"
+line "justement une"
+cont "belle bicyclette!"
+prompt
 
 _BikeShopClerkDoYouLikeItText::
-	text "It's a cool BIKE!"
-	line "Do you want it?"
-	done
+text "C'est un super"
+line "vélo, le veux-tu?"
+done
 
 _BikeShopCantAffordText::
-	text "Sorry! You can't"
-	line "afford it!"
-	prompt
+text "Oh! Tu n'as pas"
+line "assez d'argent!"
+prompt
 
 _BikeShopClerkOhThatsAVoucherText::
-	text "Oh, that's<...>"
-
-	para "A BIKE VOUCHER!" ; TODO: load item name into string buffer?
-
-	para "OK! Here you go!" ; TODO: generic Here you go! text?
-	prompt
+text "Oh! Mais c'est..."
+para "Un BON pour"
+line "une BICYCLETTE!"
+para "OK! Voilà ta"
+line "BICYCLETTE!"
+prompt
 
 _BikeShopExchangedVoucherText::
-	text "<PLAYER> exchanged"
-	line "the BIKE VOUCHER"
-	cont "for a BICYCLE.@"
-	text_end
+text "<PLAYER> échange"
+line "le BON contre"
+cont "une BICYCLETTE.@"
+text_end
 
 _BikeShopComeAgainText::
-	text "Come back again"
-	line "some time!"
-	done
+text "Reviens quand tu"
+line "veux!"
+done
 
 _BikeShopClerkHowDoYouLikeYourBicycleText::
-	text "How do you like"
-	line "your new BICYCLE?"
-
-	para "You can take it"
-	line "on CYCLING ROAD"
-	cont "and in caves!"
-	done
+text "Comment se porte"
+line "ta BICYCLETTE?"
+para "Tu peux aller sur"
+line "la PISTE CYCLABLE"
+cont "et dans les"
+cont "GROTTES!"
+done
 
 _CeruleanGymMistyTM11NoRoomText::
-_BikeShopBagFullText::
-	text "You better make"
-	line "room for this!"
-	done
+text "Ton inventaire"
+line "est plein!"
+done
 
 _BikeShopMiddleAgedWomanText::
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
-
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
-	done
+text "Un VELO de ville,"
+line "c'est ce qu'il y"
+cont "a de mieux!"
+para "Il n'y a pas de"
+line "porte-bagages sur"
+cont "un VTT!"
+done
 
 _BikeShopYoungsterTheseBikesAreExpensiveText::
-	text "These BIKEs are"
-	line "cool, but they're"
-	cont "way expensive!"
-	done
+text "Ces VELOS sont"
+line "super mais ils"
+cont "sont très chers!"
+done
 
 _BikeShopYoungsterCoolBikeText::
-	text "Wow. Your BIKE is"
-	line "really cool!"
-	done
+text "Waou! "
+line "Ta BICYCLETTE est"
+cont "super cool!"
+done
 
 _BikeShopBasketBikeText::
 	text "This BIKE has a"
@@ -89,7 +88,6 @@ _BikeShopSignRightText::
 	text "WELCOME TO"
 	line "MIRACLE CYCLE!"
 	done
-
 
 _BikeShopSignLeftText::
 	text "MIRACLE CYCLE"

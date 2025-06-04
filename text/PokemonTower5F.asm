@@ -1,71 +1,79 @@
 _PokemonTower5FChanneler1Text::
-	text "Come, child! I"
-	line "sealed this space"
-	cont "with white magic!"
-
-	para "You can rest here!"
-	done
+text "Approche, enfant!"
+line "J'ai scellé cet"
+cont "endroit grâce à"
+cont "ma sainte magie"
+cont "blanche!"
+para "Tu peux te"
+line "reposer ici!"
+done
 
 _PokemonTower5FChanneler2BattleText::
-	text "Give<...>me<...>"
-	line "your<...>soul<...>"
-	done
+text "Donne...moi..."
+line "ton...âme..."
+done
 
 _PokemonTower5FChanneler2EndBattleText::
-	text "Gasp!"
-	prompt
+text "Glargh!"
+prompt
 
 _PokemonTower5FChanneler2AfterBattleText::
-	text "I was under"
-	line "possession!"
-	done
+text "J'étais possédée!"
+done
 
 _PokemonTower5FChanneler3BattleText::
-	text "You<...>shall<...>"
-	line "join<...>us<...>"
-	done
+text "Viens...avec..."
+line "nous..."
+done
 
 _PokemonTower5FChanneler3EndBattleText::
-	text "What"
-	line "a nightmare!"
-	prompt
+text "Hein!"
+line "J'ai fait un"
+cont "cauchemar!"
+prompt
 
 _PokemonTower5FChanneler3AfterBattleText::
-	text "I was possessed!"
-	done
+text "J'étais possédée!"
+done
 
 _PokemonTower5FChanneler4BattleText::
-	text "Zombies!"
-	done
+text "Zombis!"
+done
 
 _PokemonTower5FChanneler4EndBattleText::
-	text "Ha?"
-	prompt
+text "Hein?"
+prompt
 
 _PokemonTower5FChanneler4AfterBattleText::
-	text "I regained my"
-	line "senses!"
-	done
+text "Je suis revenue à"
+line "la raison!"
+done
 
 _PokemonTower5FChanneler5BattleText::
-	text "Urgah<...>"
-	line "Urff<...>."
-	done
+text "Poyé Polomi!"
+line "Le mal est parmi"
+cont "nous...."
+done
 
 _PokemonTower5FChanneler5EndBattleText::
-	text "Whoo!"
-	prompt
+text "Quoi?"
+line "Jeune taoïste, tu"
+cont "oses m'ôter le"
+cont "yang de la "
+cont "bouche!"
+prompt
 
 _PokemonTower5FChanneler5AfterBattleText::
-	text "I fell to evil"
-	line "spirits despite"
-	cont "my training!"
-	done
+text "Mon Tao à moi,"
+line "c'est le plus bô"
+cont "des Taos!"
+done
 
 _PokemonTower5FPurifiedZoneText::
-	text "Entered purified,"
-	line "protected zone!"
-
-	para "<PLAYER>'s #MON"
-	line "are fully healed!"
-	done
+text "Vous pénétrez"
+line "dans une zone"
+cont "sanctuaire!"
+para "Les #MON de"
+line "<PLAYER> sont"
+cont "soignés!"
+done

@@ -1,43 +1,40 @@
 _SSAnneCaptainsRoomRubCaptainsBackText::
-	text "CAPTAIN: Ooargh<...>"
-	line "I feel hideous<...>"
-	cont "Urrp! Seasick<...>"
-
-	para "<PLAYER> rubbed"
-	line "the CAPTAIN's"
-	cont "back!"
-
-	para "Rub-rub<...>"
-	line "Rub-rub<...>@"
-	text_end
+text "CAPITAINE: Blorf."
+line "J'suis pas bien."
+cont "Beurp..."
+para "<PLAYER> masse"
+line "le dos du"
+cont "CAPITAINE!"
+para "Scratch..."
+line "Scratch...@"
+text_end
 
 _SSAnneCaptainsRoomCaptainIFeelMuchBetterText::
-	text "CAPTAIN: Whew!"
-	line "Thank you! I"
-	cont "feel much better!"
-
-	para "You want to see"
-	line "my CUT technique?"
-
-	para "I could show you"
-	line "if I wasn't ill<...>"
-
-	para "I know! You can"
-	line "have this!"
-
-	para "Teach it to your"
-	line "#MON and you"
-	cont "can see it CUT"
-	cont "any time!"
-	prompt
+text "CAPITAINE: Merci"
+line "moussaillon!"
+cont "Ca va beaucoup"
+cont "mieux..."
+para "Mille sabords!"
+line "Tu veux voir"
+cont "la technique"
+cont "COUPE?"
+para "Je pourrais te la"
+line "montrer, mais"
+cont "j'suis malade."
+para "Je sais!"
+line "Prends ça!"
+para "C'est la technique"
+line "COUPE."
+cont "Enseigne-la à"
+cont "tes #MON!"
+prompt
 
 _SSAnneCaptainsRoomCaptainNotSickAnymoreText::
-	text "CAPTAIN: Whew!"
-
-	para "Now that I'm not"
-	line "sick any more, I"
-	cont "guess it's time."
-	done
+text "CAPITAINE: Haaaa!"
+para "Maintenant que"
+line "je suis guéri, on"
+cont "va lever l'ancre!"
+done
 
 _SSAnneCaptainsRoomCaptainFeelingABitBetter::
 	text "CAPTAIN: What?!"
@@ -81,21 +78,22 @@ _SSAnneWontBeNeedingThatAnymore::
 	done
 
 _SSAnneCaptainsRoomCaptainHM01NoRoomText::
-	text "Oh no! You have"
-	line "no room for this!"
-	done
+text "Ha zut! Tu n'as"
+line "plus de place"
+cont "pour cet objet!"
+done
 
 _SSAnneCaptainsRoomTrashText::
-	text "Yuck! Shouldn't"
-	line "have looked!"
-	done
+text "Quoi?!?"
+line "Il a mangé ça???"
+done
 
 _SSAnneCaptainsRoomSeasickBookText::
-	text "How to Conquer"
-	line "Seasickness<...>"
-	cont "The CAPTAIN's"
-	cont "reading this!"
-	done
+text "Comment guérir"
+line "le mal de mer..."
+cont "Le CAPITAINE lit"
+cont "ce manuel!"
+done
 
 _SSAnneCaptainsRoomCutBookText::
 	text "STUDY SCYTHER:"

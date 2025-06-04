@@ -1,45 +1,33 @@
 _SafariZoneNorthRestHouseSignText::
-	text "REST HOUSE"
-	done
+text "ABRI"
+done
 
 _SafariZoneNorthTrainerTips1Text::
-	text "<TIPS>"
-
-	para "The SECRET HOUSE"
-	line "is still ahead!"
-	done
+text "ASTUCE"
+para "La Cabane Secrète"
+line "est tout droit!"
+done
 
 _SafariZoneNorthSignText::
-	text "AREA 2"
-	done
+text "PARC 2"
+done
 
 _SafariZoneNorthTrainerTips2Text::
-	text "<TIPS>"
-
-	para "GHOST type moves"
-	line "are dynamic!"
-	para "They can do either"
-	line "physical or"
-	cont "special damage!"
-	para "If a #MON's"
-	line "base SPECIAL is"
-	cont "higher than its"
-	cont "base ATTACK,"
-	para "GHOST attacks"
-	line "will do special"
-	cont "damage!"
-	para "Otherwise, they"
-	line "do physical"
-	cont "damage."
-	done
+text "ASTUCE"
+para "Les #MON se"
+line "cachent dans les"
+cont "hautes herbes!"
+para "Explorez ces"
+line "zones pour les"
+cont "faire sortir."
+done
 
 _SafariZoneNorthTrainerTips3Text::
-	text "<TIPS>"
-
-	para "Win a free HM for"
-	line "finding the"
-	cont "SECRET HOUSE!"
-	done
+text "ASTUCE"
+para "Découvrez la"
+line "CABANE SECRETE et"
+cont "gagnez une CS!"
+done
 
 _SafariZoneNorthRangerText::
 	text "Here I am!"
@@ -219,4 +207,3 @@ _SafariZoneNorthManiacAfterBattleText::
 	cont "the secret cool-"
 	cont "dudes-only"
 	cont "handshake!"
-	done

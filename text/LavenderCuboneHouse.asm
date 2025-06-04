@@ -1,28 +1,26 @@
 _LavenderCuboneHouseCuboneText::
-	text "CUBONE: Kyarugoo!@"
-	text_end
+text "OSSELAIT: Lailaii!@"
+text_end
 
 _LavenderCuboneHouseBrunetteGirlPoorCubonesMotherText::
-	text "I hate those"
-	line "horrible <ROCKET>s!"
-
-	para "That poor CUBONE's"
-	line "mother<...>"
-
-	para "It was killed"
-	line "trying to escape"
-	cont "from <TEAM><ROCKET>!"
-	done
+text "Je déteste ces"
+line "méchants ROCKET!"
+para "La pauvre mère de"
+line "OSSELAIT..."
+para "Elle est morte en"
+line "essayant"
+cont "d'échapper à la"
+cont "TEAM ROCKET!"
+done
 
 _LavenderCuboneHouseBrunetteGirlGhostIsGoneText::
-	text "The GHOST of"
-	line "#MON TOWER is"
-	cont "gone!"
-
-	para "Someone must have"
-	line "soothed its"
-	cont "restless soul!"
-	done
+text "Le SPECTRE de"
+line "la TOUR #MON"
+cont "est parti!"
+para "Quelqu'un a dû"
+line "apaiser son âme"
+cont "tourmentée!"
+done
 
 _LightChannelerGreeting::
 	text "I'm the LIGHT"
@@ -80,4 +78,3 @@ _LightChannelerPurificationComplete::
 	cont "should again."
 	para "Safe travels!"
 	done
-	

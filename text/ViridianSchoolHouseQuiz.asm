@@ -161,7 +161,6 @@ _ReceivedMovedexText::
 	line "the MOVEDEX!"
 	done
 
-
 _SchoolB1FLeftTeacherQuizFinalInfo::
 	text "Every time you"
 	line "see a #MON use"
@@ -245,4 +244,3 @@ _SchoolB1FRightBookcaseB2::
 	cont "hack away!"
 	para "Watch that tall"
 	line "grass disappear!"
-	done

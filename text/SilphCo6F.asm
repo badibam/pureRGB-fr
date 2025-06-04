@@ -1,62 +1,66 @@
 _SilphCo6FSilphWorkerM1TookOverTheBuildingText::
-	text "The <ROCKET>s came"
-	line "and took over the"
-	cont "building!"
-	done
+text "La Team ROCKET"
+line "a investi tout"
+cont "l'immeuble!"
+done
 
 _SilphCo6FSilphWorkerM1BackToWorkText::
-	text "Well, better get"
-	line "back to work!"
-	done
+text "Allez, hop! "
+line "Au boulot!"
+done
 
 _SilphCo6FSilphWorkerMHelpMePleaseText::
-	text "Oh dear, oh dear."
-	line "Help me please!"
-	done
+text "Pitié, pitié..."
+line "Aidez-moi!"
+done
 
 _SilphCo6FSilphWorkerMWeGotEngagedText::
-	text "We got engaged!"
-	line "Heheh!"
-	done
+text "On va s'marier!"
+line "Haha!"
+done
 
 _SilphCo6FSilphWorkerF1SuchACowardText::
-	text "Look at him! He's"
-	line "such a coward!"
-	done
+text "Regarde-moi ça!"
+line "Quel froussard!"
+done
 
 _SilphCo6FSilphWorkerF1HaveToMarryHimText::
-	text "I feel so sorry"
-	line "for him, I have"
-	cont "to marry him!"
-	done
+text "Il me fait pitié,"
+line "alors... Je vais"
+cont "l'épouser!"
+done
 
 _SilphCo6FSilphWorkerF2TeamRocketConquerWorldText::
-	text "<TEAM><ROCKET> is"
-	line "trying to conquer"
-	cont "the world with"
-	cont "#MON!"
-	done
+text "La TEAM ROCKET"
+line "veut dominer le"
+cont "monde avec des"
+cont "#MON!"
+done
 
 _SilphCo6FSilphWorkerF2TeamRocketRanText::
-	text "<TEAM><ROCKET> ran"
-	line "because of you!"
-	done
+text "Tu as fait fuir"
+line "la TEAM ROCKET!"
+done
 
 _SilphCo6FSilphWorkerM3TargetedSilphText::
-	text "They must have"
-	line "targeted SILPH"
-	cont "for our #MON"
-	cont "products."
-	done
+text "Les produits"
+line "#MON de la"
+cont "SYLPHE devaient"
+cont "les intéresser."
+done
 
 _SilphCo6FSilphWorkerM3WorkForSilphText::
-	text "Come work for"
-	line "SILPH when you"
-	cont "get older!"
-	done
+text "Travaille donc"
+line "pour la SYLPHE"
+cont "une fois plus"
+cont "grand!"
+done
 
 _SilphCo9FRocket2BattleText::
-_SilphCo8FRocket2BattleText::
+text "Je suis l'un des"
+line "4 frères ROCKET!"
+done
+
 _SilphCo7FRocket2BattleText::
 _SilphCo6FRocket1BattleText::
 	text "I am one of the 4"
@@ -75,36 +79,35 @@ _SilphCo6FRocket1AfterBattleText::
 	done
 
 _SilphCo6FScientistBattleText::
-	text "That rotten"
-	line "PRESIDENT!"
-
-	para "He shouldn't have"
-	line "sent me to the"
-	cont "TIKSI BRANCH!"
-	done
+text "Quel porc ce"
+line "PDG!"
+para "Il a décidé de me"
+line "muter au siège de"
+cont "TRIFOUILLI!"
+done
 
 _SilphCo6FScientistEndBattleText::
-	text "Shoot!"
-	prompt
+text "Zut!"
+prompt
 
 _SilphCo6FScientistAfterBattleText::
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
-	done
+text "TRIFOUILLI?"
+line "C'est au beau"
+cont "milieu de nulle"
+cont "part!"
+done
 
 _SilphCo6FRocket2BattleText::
-	text "You dare betray"
-	line "<TEAM><ROCKET>?"
-	done
+text "Tu oses défier"
+line "la TEAM ROCKET?"
+done
 
 _SilphCo6FRocket2EndBattleText::
-	text "You"
-	line "traitor!"
-	prompt
+text "Rebelle..."
+line "Vilain!"
+prompt
 
 _SilphCo6FRocket2AfterBattleText::
-	text "If you stand for"
-	line "justice, you"
-	cont "betray evil!"
-	done
+text "Si t'es gentil,"
+line "t'es pas méchant!"
+done

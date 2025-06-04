@@ -1,50 +1,50 @@
 _SSAnneKitchenCook1Text::
-	text "You, mon petit!"
-	line "We're busy here!"
-	cont "Out of the way!"
-	done
+text "Hé! Le mouflet,"
+line "y'en a qui bossent"
+para "dur ici!"
+line "Alors dégage!"
+done
 
 _SSAnneKitchenCook2Text::
-	text "I saw an odd ball"
-	line "in the trash."
-	done
+text "J'ai vu une Ball"
+line "bizarre dans la"
+cont "poubelle..."
+done
 
 _SSAnneKitchenCook3Text::
-	text "I'm so busy I'm"
-	line "getting dizzy!"
-	done
+text "J'ai trop de"
+line "boulot! J'en ai"
+cont "des vertiges!"
+done
 
 _SSAnneKitchenCook4Text::
-	text "Hum-de-hum-de-"
-	line "ho<...>"
-
-	para "I peel spuds"
-	line "every day!"
-	cont "Hum-hum<...>"
-	done
+text "Pourquoi?"
+line "Pourquoi moi?"
+para "J'suis tout"
+line "l'temps d'corvée"
+cont "d'patates..."
+done
 
 _SSAnneKitchenCook5Text::
-	text "Did you hear about"
-	line "SNORLAX?"
-
-	para "All it does is"
-	line "eat and sleep!"
-	done
+text "Tu connais"
+line "RONFLEX?"
+para "Il passe ses"
+line "journées à manger"
+cont "et à pioncer!"
+done
 
 _SSAnneKitchenCook6Text::
-	text "Snivel<...>Sniff<...>"
-
-	para "I only get to"
-	line "peel onions<...>"
-	cont "Snivel<...>"
-	done
+text "Sniff... "
+line "...sniff..."
+para "J'épluche"
+line "des oignons..."
+done
 
 _SSAnneKitchenCook7MainCourseIsText::
-	text "Er-hem! Indeed I"
-	line "am le CHEF!"
-
-	para "Le main course is"
-	prompt
+text "Hm, hm! Je suis"
+line "le chef cuistot!"
+para "Voilà le menu:"
+prompt
 
 SSAnneKitchenCook7SalmonDuSaladText::
 	text "Salmon du Salad!"

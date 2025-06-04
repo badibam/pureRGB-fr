@@ -29,7 +29,7 @@ _UndergroundPathWestEastEndBattleText2::
 	text "Let's"
 	line "hurry!"
 	prompt
- 
+
 _UndergroundPathWestEastAfterBattleText2::
 	text "After the meeting"
 	line "I'm going to hit"
@@ -53,4 +53,3 @@ _UndergroundPathWestEastAfterBattleText3::
 	cont "of this path."
 	para "But it's making"
 	line "me dizzy!"
-	done

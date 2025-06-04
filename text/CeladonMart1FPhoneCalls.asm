@@ -27,7 +27,6 @@ _CeladonMartCallDadSquirtleText::
 	cont "end of those!"
 	prompt
 
-
 _CeladonMartCallDadCharmanderText::
 	text "A fiery #MON,"
 	line "just like your"

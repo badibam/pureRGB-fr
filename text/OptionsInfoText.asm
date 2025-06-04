@@ -182,18 +182,3 @@ _VolcanoInfoText::
 	cont "here and find"
 	cont "other new events."
 	prompt
-
-;_MoveMysticInfoText::
-;	text "If ON, a few"
-;	line "#MON will get"
-;	cont "additional power"
-;	cont "or accuracy when"
-;	cont "using specific"
-;	cont "moves."
-;	para "The MOVE MYSTIC"
-;	line "will tell you"
-;	cont "all about these"
-;	cont "signature moves"
-;	cont "at a house in"
-;	cont "SAFFRON CITY."
-;	done

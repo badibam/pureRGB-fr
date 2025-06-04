@@ -1,60 +1,52 @@
 _Route24CooltrainerM1YouBeatOurContestText::
-	text "Congratulations!"
-	line "You beat our 5"
-	cont "contest trainers!@"
-	text_end
+text "Félicitations!"
+line "Tu as battu les"
+cont "5 dresseurs!@"
+text_end
 
 _Route24CooltrainerM1YouJustEarnedAPrizeText::
-	text_start
-
-	para "You just earned a"
-	line "fabulous prize!"
-	prompt
+text_start
+para "Tu as gagné un"
+line "fabuleux prix!"
+prompt
 
 _Route24CooltrainerM1NoRoomText::
-	text "You don't have"
-	line "any room!"
-	done
+text "Votre inventaire"
+line "est plein!"
+done
 
 _Route24CooltrainerM1JoinTeamRocketText::
-	text "By the way, would"
-	line "you like to join"
-	cont "<TEAM><ROCKET>?"
-
-	para "We're a group"
-	line "dedicated to evil"
-	cont "using #MON!"
-
-	para "Want to join?"
-
-	para "Are you sure?"
-
-	para "Come on, join us!"
-
-	para "I'm telling you"
-	line "to join!"
-
-	para "OK, you need"
-	line "convincing!"
-
-	para "I'll make you an"
-	line "offer you can't"
-	cont "refuse!"
-	done
+text "Veux-tu rejoindre"
+line "les rangs de la"
+cont "TEAM ROCKET?"
+para "Nous sommes des"
+line "dresseurs de"
+cont "#MON très"
+cont "méchants!"
+para "Ca t'intéresse?"
+para "T'es sûr?"
+para "Allez, viens!"
+para "Bon, je t'ai dit"
+line "de venir avec"
+cont "nous!"
+para "Je vois..."
+para "Je vais me"
+line "montrer plus"
+cont "persuasif!"
+done
 
 _Route24CooltrainerM1DefeatedText::
-	text "Arrgh!"
-	line "You are good!"
-	prompt
+text "Arrgh!"
+line "Tu es très fort!"
+prompt
 
 _Route24CooltrainerM1YouCouldBecomeATopLeaderText::
-	text "With your ability,"
-	line "you could become"
-	cont "a top leader in"
-	cont "<TEAM><ROCKET>!"
-	done
+text "Tu pourrais vite"
+line "devenir un chef"
+cont "au sein de la"
+cont "TEAM ROCKET!"
+done
 
 _Route24CooltrainerM2BattleText::
-	text "I saw your feat"
-	line "from the grass!"
-	done
+text "Je t'ai vu!"
+done

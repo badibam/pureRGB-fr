@@ -1,14 +1,13 @@
 _SafariZoneCenterRestHouseSignText::
-	text "REST HOUSE"
-	done
+text "ABRI"
+done
 
 _SafariZoneCenterTrainerTipsSignText::
-	text "<TIPS>"
-
-	para "Press the START"
-	line "Button to check"
-	cont "remaining time!"
-	done
+text "ASTUCE"
+para "Appuyez sur START"
+line "pour consulter la"
+cont "montre!"
+done
 
 _SafariZoneCenterRangerText::
 	text "RANGER number 1!"
@@ -112,4 +111,3 @@ _SafariZoneCenterManiacAfterBattleText::
 
 	para "I call them"
 	line "Team Brushfire!"
-	done

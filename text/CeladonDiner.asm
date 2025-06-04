@@ -1,30 +1,29 @@
 _CeladonDinerCookText::
-	text "Hi!"
-
-	para "We're taking a"
-	line "break now."
-	done
+text "Salut!"
+para "On fait une"
+line "p'tite pause."
+done
 
 _CeladonDinerMiddleAgedWomanText::
-	text "My #MON are"
-	line "weak, so I often"
-	cont "have to go to the"
-	cont "DRUG STORE."
-	done
+text "Mes #MON sont"
+line "faibles alors je"
+cont "vais souvent"
+cont "acheter des"
+cont "accélérateurs."
+done
 
 _CeladonDinerMiddleAgedManText::
-	text "Psst! There's a"
-	line "basement under"
-	cont "the GAME CORNER."
-	done
+text "Pssst! Il y a un"
+line "truc sous le"
+cont "CASINO."
+done
 
 _CeladonDinerFisherText::
-	text "Munch<...>"
-
-	para "The man at that"
-	line "table lost it all"
-	cont "at the slots."
-	done
+text "Miam..."
+para "Le type à cette"
+line "table a tout"
+cont "perdu..."
+done
 
 _CeladonDinerCoinCaseGuyImFlatOutBustedText::
 	text "Go ahead! Laugh!"
@@ -45,11 +44,6 @@ _CeladonDinerCoinCaseGuyReceivedCoinCaseText::
 	text "<PLAYER> received"
 	line "a COIN CASE!@"
 	text_end
-	
-;_CeladonDinerCoinCaseGuyCoinCaseNoRoomText::
-;	text "Make room for"
-;	line "this!"
-;	done
 
 _CeladonDinerCoinCaseGuyWinItBackText::
 	text "I always thought"
@@ -61,4 +55,3 @@ _CeladonDinerOpenText::
 	text "Welcome to"
 	line "CELADON DINER!"
 	cont "Fancy a drink?"
-	done

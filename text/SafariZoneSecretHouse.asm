@@ -1,38 +1,30 @@
 _SafariZoneSecretHouseFishingGuruYouHaveWonText::
-	text "Ah! Finally!"
-
-	para "You're the first"
-	line "person to reach"
-	cont "the SECRET HOUSE!"
-
-	para "I was getting"
-	line "worried that no"
-	cont "one would win our"
-	cont "campaign prize."
-
-	para "Congratulations!"
-	line "You have won!"
-	prompt
+text "Ah! Quand même!"
+para "Tu es le premier"
+line "à découvrir la"
+cont "CABANE SECRETE!"
+para "J'avais peur que"
+line "personne ne gagne"
+cont "notre prix."
+para "Félicitations!"
+line "Tu as gagné!"
+prompt
 
 _SafariZoneSecretHouseFishingGuruHM03ExplanationText::
-	text "HM03 is SURF!"
-
-	para "#MON will be"
-	line "able to ferry you"
-	cont "across water!"
-
-	para "And, this HM isn't"
-	line "disposable! You"
-	cont "can use it over"
-	cont "and over!"
-
-	para "You're super lucky"
-	line "for winning this"
-	cont "fabulous prize!"
-	done
+text "CS03 est SURF!"
+para "Un #MON pourra"
+line "te faire naviguer"
+cont "sur les flots!"
+para "En plus, cette CS"
+line "peut s'utiliser à"
+cont "l'infini!"
+para "T'en as de la"
+line "chance, mon p'tit"
+cont "bouchon!"
+done
 
 _SafariZoneSecretHouseFishingGuruHM03NoRoomText::
-	text "You don't have"
-	line "room for this"
-	cont "fabulous prize!"
-	done
+text "Heu... Tu n'as"
+line "pas assez de"
+cont "place!"
+done

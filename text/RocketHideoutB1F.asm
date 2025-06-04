@@ -1,74 +1,77 @@
 _RocketHideoutB1FRocket5EndBattleText::
-	text "Why<...>?@"
-	text_end
+text "Quoi...?@"
+text_end
 
 _RocketHideoutB1FRocket1BattleText::
-	text "Who are you? How"
-	line "did you get here?"
-	done
+text "T'es qui? Comment"
+line "t'es entré ici?"
+done
 
 _RocketHideoutB1FRocket1EndBattleText::
-	text "Oww!"
-	line "Beaten!"
-	prompt
+text "Aïe!"
+line "J'suis battu!"
+prompt
 
 _RocketHideoutB1FRocket1AfterBattleText::
-	text "Are you dissing"
-	line "<TEAM><ROCKET>?"
-	done
+text "Tu es pour ou"
+line "contre la"
+cont "TEAM ROCKET?"
+done
 
 _RocketHideoutB1FRocket2BattleText::
-	text "You broke into"
-	line "our operation?"
-	done
+text "Tu as tout cassé"
+line "nos plans!!!"
+done
 
 _RocketHideoutB1FRocket2EndBattleText::
-	text "Burnt!"
-	prompt
+text "Enfer!"
+prompt
 
 _RocketHideoutB1FRocket2AfterBattleText::
-	text "You're not going"
-	line "to get away with"
-	cont "this, brat!"
-	done
+text "Non, non! Tu ne"
+line "t'en tireras pas"
+cont "comme ça!"
+done
 
 _RocketHideoutB1FRocket3BattleText::
-	text "Intruder alert!"
-	done
+text "Intrus! "
+line "ALERTE! ALERTE!"
+done
 
 _RocketHideoutB1FRocket3EndBattleText::
-	text "I"
-	line "can't do it!"
-	prompt
+text "J'ai... "
+line "Echoué!!!"
+prompt
 
 _RocketHideoutB1FRocket3AfterBattleText::
-	text "SILPH SCOPE?"
-	line "I don't know"
-	cont "where it is!"
-	done
+text "SCOPE SYLPHE?"
+line "C'est quoi donc?"
+done
 
 _RocketHideoutB1FRocket4BattleText::
-	text "Why did you come"
-	line "here?"
-	done
+text "Tiens, pourquoi"
+line "t'es là?"
+done
 
 _RocketHideoutB1FRocket4EndBattleText::
-	text "This"
-	line "won't do!"
-	prompt
+_RocketHideout1EndBattleText5::
+text "J'suis"
+line "pas à la hauteur!"
+prompt
 
 _RocketHideoutB1FRocket4AfterBattleText::
-	text "OK, I'll talk!"
-	line "Take the elevator"
-	cont "to see my BOSS!"
-	done
+text "OK, OK, je parle!"
+line "Prends donc"
+cont "l'ascenseur et tu"
+cont "verras mon chef!"
+done
 
 _RocketHideoutB1FRocket5BattleText::
-	text "Are you lost, you"
-	line "little rat?"
-	done
+text "Petit rat,"
+line "tu es perdu?"
+done
 
 _RocketHideoutB1FRocket5AfterBattleText::
-	text "Uh-oh, that fight"
-	line "opened the door!"
-	done
+text "Oups, ce combat à"
+line "ouvert la porte!"
+done

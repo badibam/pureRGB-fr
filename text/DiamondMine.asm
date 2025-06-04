@@ -206,4 +206,3 @@ _DiamondMineMoreOnix2::
 _DiamondMineOnixTrainDone::
 	text "That was some"
 	line "intense digging!"
-	done

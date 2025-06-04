@@ -1,10 +1,10 @@
 _SilphCo1FLinkReceptionistText::
-	text "Welcome!"
-
-	para "The PRESIDENT is"
-	line "in the boardroom"
-	cont "on 11F!"
-	done
+text "Bienvenue!"
+para "Le PRESIDENT est"
+line "dans la salle du"
+cont "conseil, au 10ème"
+cont "étage!"
+done
 
 _SilphCo1FBattleText1::
 	text "Trying to escape?"
@@ -89,4 +89,3 @@ _SilphCo1FAfterBattleText4::
 	para "All the <ROCKET>s"
 	line "left?!"
 	para "It can't be<...>"
-	done

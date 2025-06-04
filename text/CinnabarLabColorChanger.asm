@@ -84,4 +84,3 @@ _LabColorChangerResearchingColors::
 	text "I am researching"
 	line "how to change"
 	cont "#MON colors!"
-	done

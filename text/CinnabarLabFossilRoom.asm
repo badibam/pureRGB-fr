@@ -1,81 +1,78 @@
 _CinnabarLabFossilRoomScientist1Text::
-	text "Hiya!"
-
-	para "I am important"
-	line "doctor!"
-
-	para "I study here rare"
-	line "#MON fossils!"
-
-	para "You! Have you a"
-	line "fossil for me?"
-	prompt
+text "Salut!"
+para "Je suis un"
+line "scientifique très"
+cont "sérieux!"
+para "J'étudie les"
+line "fossiles anciens"
+cont "de #MON!"
+para "Toi! Là!"
+line "T'aurais pas un"
+cont "fossile pour moi?"
+prompt
 
 _CinnabarLabFossilRoomScientist1NoFossilsText::
-	text "No! Is too bad!"
-	done
+text "Non? C'est bien"
+line "dommage!"
+done
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText::
-	text "I take a little"
-	line "time!"
-
-	para "You go for walk a"
-	line "little while!"
-	done
+text "Ca va prendre du"
+line "temps!"
+para "Va te promener"
+line "pendant que je"
+cont "bosse!"
+done
 
 _CinnabarLabFossilRoomScientist1FossilIsBackToLifeText::
-	text "Where were you?"
-
-	para "Your fossil is"
-	line "back to life!"
-
-	para "It was @"
-	text_ram wStringBuffer
-	text_start
-	line "like I think!"
-	prompt
+text "Ben alors! Où"
+line "étais-tu passé?"
+para "Ton fossile est"
+line "VIVANT!"
+para "Il ressemble à un"
+line "@"
+text_ram wStringBuffer
+text "!"
+prompt
 
 _CinnabarLabFossilRoomScientist1SeesFossilText::
-	text "Oh! That is"
-	line "@"
-	text_ram wNameBuffer
-	text "!"
-
-	para "It is fossil of"
-	line "@"
-	text_ram wStringBuffer
-	text ", a"
-	cont "#MON that is"
-	cont "already extinct!"
-
-	para "My Resurrection"
-	line "Machine will make"
-	cont "that #MON live"
-	cont "again!"
-	done
+text "Oh! C'est un"
+line "@"
+text_ram wNameBuffer
+text "!"
+para "C'est un fossile"
+line "de @"
+text_ram wStringBuffer
+text ","
+cont "un #MON qui a"
+cont "disparu!"
+para "Ma machine à"
+line "réanimer va faire"
+cont "revivre cet"
+cont "ancien #MON!"
+done
 
 _CinnabarLabFossilRoomScientist1TakesFossilText::
-	text "So! You hurry and"
-	line "give me that!"
-
-	para "<PLAYER> handed"
-	line "over @"
-	text_ram wNameBuffer
-	text "!"
-	prompt
+text "Tu te grouilles,"
+line "file-moi ça!"
+para "<PLAYER> donne:"
+line "@"
+text_ram wNameBuffer
+text "!"
+prompt
 
 _CinnabarLabFossilRoomScientist1GoForAWalkText2::
-	text "I take a little"
-	line "time!"
-
-	para "You go for walk a"
-	line "little while!"
-	done
+text "Ca va prendre un"
+line "peu de temps!"
+para "Traîne pas dans"
+line "mes pattes, va"
+cont "faire un tour!"
+done
 
 _CinnabarLabFossilRoomScientist1ComeAgainText::
-	text "Aiyah! You come"
-	line "again!"
-	done
+text "Argayahhaha!"
+line "Tu reviendras!"
+done
 
 _CinnabarLabFossilRoomDeskPapersText::
 	text "NEXT RESEARCH"
@@ -84,4 +81,3 @@ _CinnabarLabFossilRoomDeskPapersText::
 	line "study on how"
 	cont "PONYTA survives"
 	cont "with flaming mane."
-	done

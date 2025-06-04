@@ -1,45 +1,39 @@
 _FuchsiaGymKogaPostBattleAdviceText::
-	text "When afflicted by"
-	line "TOXIC, #MON"
-	cont "suffer more and"
-	cont "more as battle"
-	cont "progresses!"
-
-	para "It will surely"
-	line "terrorize foes!"
-	done
+text "TOXIK fera"
+line "souffrir de plus"
+cont "en plus un"
+cont "#MON pendant"
+cont "un combat!"
+para "De quoi filer la"
+line "pétoche!"
+done
 
 _FuchsiaGymKogaSoulBadgeInfoText::
-	text "Now that you have"
-	line "the SOULBADGE,"
-	cont "the DEFENSE of"
-	cont "your #MON"
-	cont "increases!"
-
-	para "It also lets you"
-	line "SURF outside of"
-	cont "battle!"
-
-	para "Ah! Take this"
-	line "too!"
-	done
+text "Le BADGE AME fera"
+line "monter la DEFENSE"
+cont "de tes #MON!"
+para "Il te permettra"
+line "aussi d'utiliser"
+cont "SURF!"
+para "Attends! Prends"
+line "aussi ceci!"
+done
 
 _FuchsiaGymKogaTM06ExplanationText::
-	text_start
-	para "@"
-	text_ram wStringBuffer
-	text " contains"
-	line "TOXIC!"
-
-	para "It is a secret"
-	line "technique over"
-	cont "400 years old!"
-	done
+text_start
+para "CT06: TOXIK!"
+para "Cette technique"
+line "secrète et sacrée"
+cont "est vieille d'au"
+cont "moins 400 ans!"
+cont "...j'te jure!"
+done
 
 _FuchsiaGymKogaTM06NoRoomText::
-	text "Make space for"
-	line "this, child!"
-	done
+text "Gnaaaa!!!"
+line "Ton inventaire"
+cont "est plein!"
+done
 
 _FuchsiaGymJuggler1BattleText::
 	text "Strength isn't"
@@ -166,27 +160,26 @@ _FuchsiaGymJuggler4AfterBattleText::
 	done
 
 _FuchsiaGymGymGuideChampInMakingText::
-	text "Yo! Champ in"
-	line "making!"
-
-	para "FUCHSIA GYM is"
-	line "riddled with"
-	cont "invisible walls!"
-
-	para "KOGA might appear"
-	line "close, but he's"
-	cont "blocked off!"
-
-	para "You have to find"
-	line "gaps in the walls"
-	cont "to reach him!"
-	done
+text "Hop là! Graine"
+line "de champion!"
+para "L'ARENE de"
+line "PARMANIE est un"
+cont "vrai casse-tête!"
+para "KOGA te semblera"
+line "proche, mais de"
+cont "nombreux murs le"
+cont "protégeront!"
+para "Trouve les trous"
+line "entre les murs"
+cont "pour l'atteindre!"
+done
 
 _FuchsiaGymGymGuideBeatKogaText::
-	text "It's amazing how"
-	line "ninja can terrify"
-	cont "even now!@"
-	text_end
+text "Un ninja? Bah..."
+line "C'est gros, roux"
+cont "et ça fait"
+cont "coin-coin! Non?"
+done
 
 _FuchsiaGymGuideApexChipPoisonText::
 	text "For poison"

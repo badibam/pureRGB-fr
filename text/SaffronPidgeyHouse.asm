@@ -9,14 +9,15 @@ _SaffronPidgeyHousePaperText:: ; PureRGBnote: FIXED: this text entry was origina
 	done
 
 _SaffronPidgeyHousePidgeyText::
-	text "PIDGEY: Kurukkoo!@"
-	text_end
+text "ROUCOOL: Rourou!@"
+text_end
 
 _SaffronPidgeyHouseYoungsterText::
-	text "The COPYCAT is"
-	line "cute! I'm getting"
-	cont "her a # DOLL!"
-	done
+text "La COPIEUSE est"
+line "mignonne! Je vais"
+cont "lui offrir une"
+cont "#POUPEE!"
+done
 
 _SaffronPidgeyHouseBrunetteGirlText:: ; PureRGBnote: FIXED: this text entry was originally mixed up with the text for the letter.
 	text "I was given a PP"

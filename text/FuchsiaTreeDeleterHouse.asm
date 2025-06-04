@@ -122,4 +122,3 @@ _FuchsiaTreeDeleterSnorlax::
 _FuchsiaTreeDeleterSnorlax2::
 	text "What a couch"
 	line "potato!"
-	done

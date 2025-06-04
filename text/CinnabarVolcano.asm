@@ -209,8 +209,6 @@ _RubyTwoMoreToGoText::
 	
 _MoreToGoText:
 	text_end
-	text " more to go!"
-	done
 
 _RubyOneMoreToGoText::
 	text "One@"
@@ -330,7 +328,6 @@ _VolcanoBattleBurnText::
 	text_ram wBattleMonNick
 	text "!"
 	prompt
-
 
 _LetsDoThis::
 	text "Let's do this!"
