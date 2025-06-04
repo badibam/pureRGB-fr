@@ -145,18 +145,17 @@ _GymStatueText1:: ; TODO: parameterize
 	done
 
 _GymStatueText2::
-text "ARENE #MON"
-line "de @"
-text_ram wGymCityName
-text_start
-cont "CHAMPION:"
-cont "@"
-text_ram wGymLeaderName
-text_start
-para "VAINQUEURS:"
-line "<RIVAL>"
-cont "<PLAYER>"
-done
+	text_ram wStringBuffer
+	text_start
+	line "ARENE #MON"
+	cont "CHAMPION: @"
+	text_ram wNameBuffer
+	text_start
+
+	para "VAINQUEURS:"
+	line "<RIVAL>"
+	cont "<PLAYER>"
+	done
 
 _ViridianCityPokecenterGuyText::
 text "Les CENTRES"
@@ -832,6 +831,7 @@ cont "#MON."
 done
 
 _BookcaseText::
+_PokemonBooksText::
 text "Des bouquins sur"
 line "les #MON!"
 done
@@ -1570,6 +1570,7 @@ line "stocké."
 prompt
 
 _PokemartItemBagFullText::
+_CantCarryMoreText::
 text "L'inventaire"
 line "est plein."
 prompt

@@ -44,6 +44,7 @@ line "Défends-toi!"
 done
 
 _SilphCo3FRocketEndBattleText::
+_FightingDojoBlackbelt1EndBattleText::
 text "Yaha!"
 line "T'es trop fort!"
 prompt

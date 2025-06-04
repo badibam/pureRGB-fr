@@ -52,6 +52,7 @@ _CeladonMartRoofLittleGirlReceivedTM48Text::
 _CopycatsHouse2FCopycatReceivedTM31Text::
 _MrPsychicsHouseMrPsychicReceivedTM29Text::
 _SaffronGymSabrinaReceivedTM46Text::
+_CeruleanGymMistyReceivedTM11Text::
 _FuchsiaGymKogaReceivedTM06Text::
 _WardensHouseWardenReceivedHM04Text::
 _SafariZoneSecretHouseFishingGuruReceivedHM03Text::
@@ -60,7 +61,7 @@ _CinnabarLabMetronomeRoomScientist1ReceivedTM35Text::
 _ViridianCityFisherReceivedTM42Text::
 _ViridianGymGiovanniReceivedTM27Text::
 _Route12Gate2FBrunetteGirlReceivedTM39Text::
-	text "<PLAYER> received"
+	text "<PLAYER> reçoit"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"

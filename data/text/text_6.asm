@@ -150,6 +150,7 @@ text "Ca ne marche pas."
 prompt
 
 _ItemUseNoEffectText::
+_RareCandyNoEffectText::
 text "Sans effet."
 prompt
 

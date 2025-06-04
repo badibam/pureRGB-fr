@@ -140,6 +140,7 @@ line "des jetons?"
 prompt
 
 _GameCornerGentlemanReceived20CoinsText::
+_GameCornerClerk2Received20CoinsText::
 text "<PLAYER> reçoit"
 line "20 jetons!@"
 text_end
@@ -182,6 +183,7 @@ cont "Bouge de là!"
 done
 
 _Route21Fisher1EndBattleText::
+_GameCornerRocketBattleEndText::
 text "Paf!"
 prompt
 

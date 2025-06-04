@@ -57,14 +57,15 @@ cont "grand!"
 done
 
 _SilphCo9FRocket2BattleText::
+_SilphCo8FRocket2BattleText::
 text "Je suis l'un des"
 line "4 frères ROCKET!"
 done
 
 _SilphCo7FRocket2BattleText::
 _SilphCo6FRocket1BattleText::
-	text "I am one of the 4"
-	line "<ROCKET> BROTHERS!"
+	text "Je suis l'un des"
+	line "4 frères <ROCKET>!"
 	done
 
 _SilphCo6FRocket1EndBattleText::

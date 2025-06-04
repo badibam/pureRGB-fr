@@ -323,6 +323,7 @@ cont "sont dévorés!"
 prompt
 
 _ColosseumOpponentText::
+_TradeCenterOpponentText::
 text "!"
 done
 

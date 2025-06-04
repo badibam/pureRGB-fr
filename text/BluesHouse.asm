@@ -27,6 +27,7 @@ _MapHelpText::
 	done
 
 _Route1Youngster1NoRoomText::
+_BluesHouseDaisyBagFullText::
 text "Ton inventaire"
 line "est plein!"
 done

@@ -45,6 +45,7 @@ cont "GROTTES!"
 done
 
 _CeruleanGymMistyTM11NoRoomText::
+_BikeShopBagFullText::
 text "Ton inventaire"
 line "est plein!"
 done

@@ -89,6 +89,7 @@ cont "A l'attaque!"
 done
 
 _Route19Swimmer5EndBattleText::
+_RockTunnelB1FCooltrainerF2EndBattleText::
 text "Oh!"
 line "J'ai perdu!"
 prompt

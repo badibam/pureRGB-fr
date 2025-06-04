@@ -629,3 +629,8 @@ _ErikSarasHouseSecondNoteText::
 	cont "ISLANDS is still"
 	cont "unknown."
 	done
+
+_WereMarineBiologists::
+	para "Nous sommes"
+	line "biologistes marins!"
+	done

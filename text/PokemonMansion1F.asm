@@ -75,14 +75,17 @@ _Mansion1AfterBattleText4::
 	done
 
 _PokemonMansion2FSwitchText::
+_PokemonMansion1FSwitchText::
 text "Un interrupteur!"
 para "L'actionner?"
 done
 
 _PokemonMansion2FSwitchPressedText::
+_PokemonMansion1FSwitchPressedText::
 text "Sans blague..."
 prompt
 
 _PokemonMansion2FSwitchNotPressedText::
+_PokemonMansion1FSwitchNotPressedText::
 text "Pas vraiment!"
 done

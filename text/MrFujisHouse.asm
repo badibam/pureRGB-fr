@@ -49,19 +49,14 @@ line "te sera utile."
 prompt
 
 _PokemonFanClubReceivedBikeVoucherText::
+_LastTwoGurusReceivedItemText::
+_MrFujisHouseMrFujiReceivedPokeFluteText::
+_Route24CooltrainerM1ReceivedNuggetText::
 text "<PLAYER> reçoit:"
 line "@"
 text_ram wStringBuffer
 text "!@"
 text_end
-
-_MrFujisHouseMrFujiReceivedPokeFluteText::
-_Route24CooltrainerM1ReceivedNuggetText::
-	text "<PLAYER> received"
-	line "a @"
-	text_ram wStringBuffer
-	text "!@"
-	text_end
 
 _MrFujisHouseMrFujiPokeFluteExplanationText::
 text_start

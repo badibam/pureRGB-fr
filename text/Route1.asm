@@ -12,6 +12,7 @@ cont "échantillon!"
 prompt
 
 _SilphCo2FSilphWorkerFReceivedTM36Text::
+_Route1Youngster1GotPotionText::
 text "<PLAYER> obtient"
 line "@"
 text_ram wStringBuffer
