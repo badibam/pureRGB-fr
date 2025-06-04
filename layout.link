@@ -216,6 +216,20 @@ ROMX $38
 	"Pics 11"
 ROMX $39
 	"Text 13"
+ROMX $3A
+	"Text 14"
+ROMX $3B
+	"Text 15"
+ROMX $3C
+	"Text 16"
+ROMX $3D
+	"Text 17"
+ROMX $3E
+	"Text 18"
+ROMX $3F
+	"Text 19"
+ROMX $40
+	"Text 20"
 WRAM0
 	"Audio RAM"
 	org $c100

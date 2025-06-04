@@ -231,3 +231,4 @@ vc_patch Change_link_closed_inactivity_message
 IF DEF(_RED_VC) || DEF(_BLUE_VC)
 text "A bientôt!"
 done
+ENDC

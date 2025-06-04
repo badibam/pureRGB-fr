@@ -1373,13 +1373,6 @@ text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
 text "!"
 prompt
 
-_PickUpPayDayMoneyText::
-	text "<PLAYER> picked up"
-	line "¥@"
-	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text "!"
-	prompt
-
 _ClearSaveDataText::
 text "Effacer toutes"
 line "les données?"

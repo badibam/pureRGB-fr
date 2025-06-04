@@ -23,7 +23,6 @@ INCLUDE "text/RocketHideoutElevator.asm"
 INCLUDE "text/SilphCo2F.asm"
 INCLUDE "text/SilphCo3F.asm"
 INCLUDE "text/SilphCo4F.asm"
-INCLUDE "text/CinnabarVolcano.asm"
 
 
 SECTION "Text 2", ROMX
@@ -61,9 +60,6 @@ SECTION "Text 3", ROMX
 
 INCLUDE "text/RockTunnelB1F_2.asm"
 INCLUDE "text/SeafoamIslandsB4F.asm"
-
-INCLUDE "data/text/text_2.asm"
-
 INCLUDE "text/DiglettsCaveRoute2.asm"
 INCLUDE "text/ViridianForestNorthGate.asm"
 INCLUDE "text/Route2TradeHouse.asm"
@@ -149,11 +145,9 @@ INCLUDE "data/text/text_3.asm"
 
 INCLUDE "text/RedsHouse1F.asm"
 INCLUDE "text/BluesHouse.asm"
-INCLUDE "text/OaksLab.asm"
 INCLUDE "text/pokedex_ratings.asm"
 INCLUDE "text/ViridianPokecenter.asm"
 INCLUDE "text/ViridianMart.asm"
-INCLUDE "text/ViridianSchoolHouse.asm"
 INCLUDE "text/ViridianNicknameHouse.asm"
 INCLUDE "text/ViridianGym.asm"
 INCLUDE "text/Museum1F.asm"
@@ -163,7 +157,6 @@ INCLUDE "text/PewterGym.asm"
 
 SECTION "Text 7", ROMX
 
-INCLUDE "text/PewterGym_2.asm"
 INCLUDE "text/PewterNidoranHouse.asm"
 INCLUDE "text/PewterMart.asm"
 INCLUDE "text/PewterSpeechHouse.asm"
@@ -171,8 +164,6 @@ INCLUDE "text/PewterPokecenter.asm"
 INCLUDE "text/CeruleanTrashedHouse.asm"
 INCLUDE "text/CeruleanTradeHouse.asm"
 INCLUDE "text/CeruleanPokecenter.asm"
-INCLUDE "text/CeruleanGym.asm"
-INCLUDE "text/BikeShop.asm"
 INCLUDE "text/CeruleanMart.asm"
 INCLUDE "text/CeruleanBadgeHouse.asm"
 INCLUDE "text/CeruleanOldRodHouse.asm"
@@ -261,16 +252,12 @@ INCLUDE "data/text/text_5.asm"
 INCLUDE "text/PalletTown.asm"
 INCLUDE "text/ViridianCity.asm"
 INCLUDE "text/PewterCity.asm"
-INCLUDE "text/CeruleanCity.asm"
 INCLUDE "text/LavenderTown.asm"
 INCLUDE "text/VermilionCity.asm"
 INCLUDE "text/CeladonCity.asm"
 INCLUDE "text/FuchsiaCity.asm"
 INCLUDE "text/CinnabarIsland.asm"
 INCLUDE "text/SaffronCity.asm"
-
-INCLUDE "data/text/text_6.asm"
-
 INCLUDE "text/CinnabarLabColorChanger.asm"
 INCLUDE "text/CeladonLaprasGuy.asm"
 INCLUDE "text/SafariZoneNewRestHouseText.asm"
@@ -278,23 +265,46 @@ INCLUDE "text/SafariZoneNewRestHouseText.asm"
 
 SECTION "Text 11", ROMX
 
-INCLUDE "data/text/text_7.asm"
 INCLUDE "text/CeruleanRocketHouse.asm"
 INCLUDE "text/CeladonMart1FPhoneCalls.asm"
 INCLUDE "text/PalletPhoneResultEvents.asm"
-INCLUDE "text/BillsGarden.asm"
-INCLUDE "text/SecretLab.asm"
 INCLUDE "text/SilphCo5F.asm"
 
 SECTION "Text 12", ROMX
 INCLUDE "text/TypeGuysHouse.asm"
-INCLUDE "text/ChampArena.asm"
 INCLUDE "text/DiamondMine.asm"
-INCLUDE "text/OptionsInfoText.asm"
 
 SECTION "Text 13", ROMX
-INCLUDE "text/PokemonTowerCatacombs.asm"
 INCLUDE "text/ErikAndSara.asm"
+
+SECTION "Text 14", ROMX
+INCLUDE "data/text/text_2.asm"
+
+SECTION "Text 15", ROMX
+INCLUDE "data/text/text_6.asm"
+
+SECTION "Text 16", ROMX
+INCLUDE "data/text/text_7.asm"
+
+SECTION "Text 17", ROMX
+INCLUDE "text/OaksLab.asm"
+INCLUDE "text/ViridianSchoolHouse.asm"
+
+SECTION "Text 18", ROMX
+INCLUDE "text/ChampArena.asm"
+INCLUDE "text/OptionsInfoText.asm"
+
+SECTION "Text 19", ROMX
+INCLUDE "text/BillsGarden.asm"
+INCLUDE "text/SecretLab.asm"
+INCLUDE "text/CeruleanCity.asm"
+
+SECTION "Text 20", ROMX
+INCLUDE "text/CinnabarVolcano.asm"
+INCLUDE "text/PokemonTowerCatacombs.asm"
+INCLUDE "text/PewterGym_2.asm"
+INCLUDE "text/CeruleanGym.asm"
+INCLUDE "text/BikeShop.asm"
 
 SECTION "Pokédex Text", ROMX
 
