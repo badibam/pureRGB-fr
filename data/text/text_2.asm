@@ -1115,7 +1115,7 @@ text_end
 
 _UsedText::
 	text_start
-	line "used @"
+	line "lance @"
 	text_end
 
 _InsteadText::

@@ -370,18 +370,18 @@ SpecialEnterMap::
 	jp EnterMap
 
 ContinueText:
-	db "CONTINUE"
+	db "CONTINUER"
 	next ""
 	; fallthrough
 
 NewGameText:
-	db   "NEW GAME"
+	db "NOUVEAU JEU"
 	next "OPTION@"
 
 CableClubOptionsText:
-	db   "TRADE CENTER"
-	next "COLOSSEUM"
-	next "CANCEL@"
+	db   "CENTRE TROC"
+	next "COLISEE"
+	next "RETOUR@"
 
 VersionText:
 db " "

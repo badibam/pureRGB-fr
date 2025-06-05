@@ -71,12 +71,12 @@ JapaneseMainMenuText:
 	next "さいしょから@"
 
 BattleMenuText:
-	db   "FIGHT <PK><MN>"
-	next "ITEM  RUN@"
+	db   "ATTAQ <PK><MN>"
+	next "OBJET FUITE@"
 
 SafariZoneBattleMenuText:
-	db   "BALL×       BAIT"
-	next "THROW ROCK  RUN@"
+	db   "BALL×      APPAT"
+	next "CAILLOU    FUITE@"
 
 SwitchStatsCancelText:
 	db   "SWITCH"
