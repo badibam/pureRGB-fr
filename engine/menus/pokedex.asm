@@ -1051,8 +1051,8 @@ ShowNextPokemonData:
 	jp ShowNextPokemonData
 
 HeightWeightText:
-	db   "HT  ?′??″"
-	next "WT   ???lb@"
+	db   "TAI  ???<M>"
+	next "PDS  ???<K><G>@"
 
 ; XXX does anything point to this? ; PureRGBnote: CHANGED: no, so comment out
 ;PokeText:

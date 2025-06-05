@@ -398,8 +398,11 @@
 
 	charmap "．", $f2
 	charmap "／", $f3
+	charmap "<M>", $f1 ; mètres
+	charmap "<K>", $e9 ; kilo
+	charmap "<G>", $ea ; grammes
 
-	charmap "ォ", $f4
+	charmap "ォ", $eb
 
 	DEF NUMBER_CHAR_OFFSET EQU $f6
 
