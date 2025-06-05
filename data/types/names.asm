@@ -30,13 +30,13 @@ ENDR
 	assert_table_length NUM_TYPES
 
 .Normal:   db "NORMAL@"
-.Fighting: db "FIGHTING@"
+.Fighting: db "COMBAT@"
 .Flying:   db "FLYING@"
 .Poison:   db "POISON@"
 .Fire:     db "FIRE@"
 .Water:    db "WATER@"
 .Grass:    db "GRASS@"
-.Electric: db "ELECTRIC@"
+.Electric: db "ELECTRIK@"
 .Psychic:  db "PSYCHIC@"
 .Ice:      db "ICE@"
 .Ground:   db "GROUND@"
