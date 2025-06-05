@@ -52,8 +52,8 @@
 	charmap "<COLON>",   $6d ; colon with tinier dots than ":"
 	charmap "ぃ",         $6e ; hiragana small i, unused
 	charmap "ぅ",         $6f ; hiragana small u, unused
-	charmap "‘",         $70 ; opening single quote
-	charmap "’",         $71 ; closing single quote
+	charmap "'",         $70 ; opening single quote
+	charmap "'",         $71 ; closing single quote
 	charmap "<EXTRAOPENQUOTE>",         $72 ; opening quote ; PureRGBnote: CHANGED: crappier quotation mark
 	charmap "<EXTRACLOSEQUOTE>",         $73 ; closing quote ; PureRGBnote: CHANGED: crappier quotation mark 2
 	charmap "·",         $74 ; middle dot, unused
@@ -85,6 +85,9 @@
 	; needed for ShowPokedexDataInternal (see engine/menus/pokedex.asm)
 	charmap "′",         $60 ; gfx/pokedex/pokedex.png
 	charmap "″",         $61 ; gfx/pokedex/pokedex.png
+	charmap "<M>",       $f1 ; mètres - use available slot
+	charmap "<K>",       $e9 ; kilo - use available slot
+	charmap "<G>",       $ea ; grammes - use available slot
 
 	; needed for StatusScreen (see engine/pokemon/status_screen.asm)
 	charmap "<BOLD_P>",  $72 ; gfx/font/P.1bpp
@@ -128,8 +131,8 @@
 	charmap ")",         $9b
 	charmap ":",         $9c
 	charmap ";",         $9d
-	charmap "“",         $9e ; PureRGBnote: CHANGED: used to be square bracket, now it's a better quotation open
-	charmap "”",         $9f ; PureRGBnote: CHANGED: used to be square bracket, now it's a better quotation close
+	charmap """,         $9e ; PureRGBnote: CHANGED: used to be square bracket, now it's a better quotation open
+	charmap """,         $9f ; PureRGBnote: CHANGED: used to be square bracket, now it's a better quotation close
 
 	charmap "a",         $a0
 	charmap "b",         $a1
@@ -162,7 +165,14 @@
 	charmap "è",         $bb
 	charmap "é",         $bc
 	charmap "ù",         $bd
+	charmap "ß",         $be
 	charmap "ç",         $bf
+	charmap "Ä",         $c0
+	charmap "Ö",         $c1
+	charmap "Ü",         $c2
+	charmap "ä",         $c3
+	charmap "ö",         $c4
+	charmap "ü",         $c5
 	charmap "ë",         $c6
 	charmap "ï",         $c7
 	charmap "â",         $c8
@@ -182,8 +192,6 @@
 	charmap "t'",        $dd
 	charmap "u'",        $de
 	charmap "y'",        $df
-
-	charmap "ß",         $be
 
 	charmap "'",         $e0
 	charmap "<PK>",      $e1
@@ -398,11 +406,8 @@
 
 	charmap "．", $f2
 	charmap "／", $f3
-	charmap "<M>", $f1 ; mètres
-	charmap "<K>", $e9 ; kilo
-	charmap "<G>", $ea ; grammes
 
-	charmap "ォ", $eb
+	charmap "ォ", $f4
 
 	DEF NUMBER_CHAR_OFFSET EQU $f6
 
